@@ -1,0 +1,152 @@
+<div class="container-fluid circleBackground">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="padding-top: 20px;">
+
+            <div class="imagetopright" style="z-index: 5; position: fixed;">
+                <button type="button" (click)="switchLang('en')" style="margin-bottom: 10px;"><img
+                        src="../assets/flags/United-Kingdom-icon.png"></button>
+                <button type="button" (click)="switchLang('it')" style="margin-bottom: 10px;"><img
+                        src="../assets/flags/Italy-Flag-icon.png"></button>
+                <button type="button" (click)="switchLang('pt')"><img
+                        src="../assets/flags/Brazil-Flag-icon.png"></button>
+                <button style="margin-top:20px;" type="button" (click)="goToHome()"><img src="../assets/images/home.png"></button>
+            </div>
+            <b>
+                <h3 class="modal-title" id="exampleModalLabel">{{'bookingAtCastelBrandoTitle' | translate }}</h3>
+            </b>
+            <img src="../../assets/images/CastelBrandoAndDependance.png" class="img-fluid" alt="Responsive image">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="padding-top: 20px;">
+            {{'bookingAtCastelBrandoText' | translate }}
+            <br><br>
+            <table class="table table-striped">
+                <tr>
+                    <th scope="col">{{'bookingAtCastelBrandoText2' | translate }}</th>
+                </tr>
+                <tr>
+                    <th scope="col">{{'bookingAtCastelBrandoText3' | translate }}</th>
+                    <th scope="col">{{'bookingAtCastelBrandoText4' | translate }}</th>
+                    <th scope="col">{{'bookingAtCastelBrandoText5' | translate }}</th>
+                </tr>
+                <tr>
+                    <td>{{'bookingAtCastelBrandoText6' | translate }}</td>
+                    <td>92 euro{{'pluralEuro' | translate }}</td>
+                    <td>112 euro{{'pluralEuro' | translate }}</td>
+                </tr>
+                <tr>
+                    <td>{{'bookingAtCastelBrandoText7' | translate }}</td>
+                    <td>128 euro{{'pluralEuro' | translate }}</td>
+                    <td>142 euro{{'pluralEuro' | translate }}</td>
+                </tr>
+                <tr>
+                    <td>{{'bookingAtCastelBrandoText8' | translate }}</td>
+                    <td>142 euro{{'pluralEuro' | translate }}</td>
+                    <td>152 euro{{'pluralEuro' | translate }}</td>
+                </tr>
+                <tr>
+                    <td>{{'bookingAtCastelBrandoText9' | translate }}</td>
+                    <td>212 euro{{'pluralEuro' | translate }}</td>
+                    <td>262 euro{{'pluralEuro' | translate }}</td>
+                </tr>
+                <tr>
+                    <td>{{'bookingAtCastelBrandoText10' | translate }}</td>
+                    <td>282 euro{{'pluralEuro' | translate }}</td>
+                    <td>302 euro{{'pluralEuro' | translate }}</td>
+                </tr>
+                <tr>
+                    <th scope="col">{{'bookingAtCastelBrandoText11' | translate }}</th>
+                </tr>
+                <tr>
+                    <th scope="col">{{'bookingAtCastelBrandoText3' | translate }}</th>
+                    <th scope="col">{{'bookingAtCastelBrandoText4' | translate }}</th>
+                    <th scope="col">{{'bookingAtCastelBrandoText5' | translate }}</th>
+                </tr>
+                <tr>
+                    <td>{{'bookingAtCastelBrandoText6' | translate }}</td>
+                    <td>90 euro{{'pluralEuro' | translate }}</td>
+                    <td>102 euro{{'pluralEuro' | translate }}</td>
+                </tr>
+                <tr>
+                    <td>{{'bookingAtCastelBrandoText7' | translate }}</td>
+                    <td>110 euro{{'pluralEuro' | translate }}</td>
+                    <td>122 euro{{'pluralEuro' | translate }}</td>
+                </tr>
+            </table>
+            {{'bookingAtCastelBrandoText1' | translate }}<br>
+            {{'bookingAtCastelBrandoText12' | translate }}<br><br>
+
+            <b>{{'bookingAtCastelBrandoText14' | translate }}</b>
+            <div class="jumbotron">
+                {{'emailBodyPT1' | translate }}<br><br>
+                {{'emailBodyPT2' | translate }}<br><br>
+                {{'emailBodyPT3' | translate }}<br><br>
+                {{'emailBodyPT4' | translate }}<br>
+                {{'emailBodyPT5' | translate }}<br>
+                {{'emailBodyPT6' | translate }}<br>
+            </div>
+
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-top:10px;">
+                    <a class="btn btn-primary" href="mailto:hotel@castelbrando.it?">{{'bookingButton' | translate }}</a>
+                </div>
+                <!-- body={{'emailBody' | translate }} -->
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-top:10px;">
+                    {{'bookingAtCastelBrandoText13' | translate }}
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="padding-top: 20px;">
+            <b>
+                <h3 class="modal-title" id="exampleModalLabel">{{'bookingOtherOptions' | translate }}</h3>
+            </b>
+            {{'bookingOtherOptionsText1' | translate }}
+
+            <br><br>
+            <table class="table table-striped">
+                <tr>
+                    <td>I Giardini Segreti di Villa Marcello Marinelli (4 stars hotel) - {{'min10Walking' | translate }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>MeravigliaHouse (B&B) - {{'min10Walking' | translate }}</td>
+                </tr>
+                <tr>
+                    <td>Agriturismo La Dolza (2 stars hotel) - {{'min10Walking' | translate }}</td>
+                </tr>
+                <tr>
+                    <td>Casa di Nonna Silla (B&B) - {{'min10Walking' | translate }}</td>
+                </tr>
+                <tr>
+                    <td>Casa Vacanze La Via Claudia (Holiday house) - {{'min5Car' | translate }}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <p class="copyright">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is
+                made
+                with
+                <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                    target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+    </div>
+</footer>

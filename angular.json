@@ -24,9 +24,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "src/assets/common-js/tether.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "src/assets/common-js/jquery.countdown.min.js",
+              "src/assets/common-js/jquery.fluidbox.min.js",
+              "src/assets/common-js/scripts.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -52,8 +60,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "6kb",
-                  "maximumError": "10kb"
+                  "maximumWarning": "15kb",
+                  "maximumError": "20kb"
                 }
               ]
             }
@@ -88,9 +96,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "src/assets/common-js/tether.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "src/assets/common-js/jquery.countdown.min.js",
+              "src/assets/common-js/jquery.fluidbox.min.js",
+              "src/assets/common-js/scripts.js"
+            ]
           }
         },
         "lint": {
@@ -119,6 +135,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "matrimonio"
+    }
+  },
+  "defaultProject": "matrimonio",
+  "cli": {
+    "analytics": "f0f868da-6cbc-4950-9762-9cf54d94d677"
+  }
 }
