@@ -12,6 +12,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BookingInformationComponent } from './booking-information/booking-information.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { DbDataComponent } from './db-data/db-data.component';
 
 
 
@@ -19,7 +20,8 @@ import { HomePageComponent } from './home-page/home-page.component';
   declarations: [
     AppComponent,
     BookingInformationComponent,
-    HomePageComponent
+    HomePageComponent,
+    DbDataComponent
   ],
   imports: [
     BrowserModule,

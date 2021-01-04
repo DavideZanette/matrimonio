@@ -16,6 +16,7 @@ export class HomePageComponent {
   @Input() subscription: Subscription = new Subscription;
 
   subscriptionSuccessful: boolean = false;
+  dbData : Subscription[];
 
   constructor(public dbService: DbService, public translate: TranslateService, private readonly router: Router) {
     translate.addLangs(['en', 'it', 'pt']);

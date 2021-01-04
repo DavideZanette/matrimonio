@@ -1,0 +1,26 @@
+<p>db-data works!</p>
+
+
+
+<table dbTable class="table table-striped">
+    <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Surname</th>
+        <th scope="col">Address</th>
+        <th scope="col">Postal Code</th>
+        <th scope="col">Email</th>
+        <th scope="col">City</th>
+        <th scope="col">Country</th>
+        <th scope="col">Phone Number</th>
+    </tr>
+    <tr dbTable *ngFor="let el of dbData">
+        <td>{{el.name}}</td>
+        <td>{{el.surname}}</td>
+        <td>{{el.streetAddress}}</td>
+        <td>{{el.postalCode}}</td>
+        <td>{{el.mailAddress}}</td>
+        <td>{{el.city}}</td>
+        <td>{{el.country}}</td>
+        <td>{{el.phoneNumber}}</td>
+    </tr>
+</table>

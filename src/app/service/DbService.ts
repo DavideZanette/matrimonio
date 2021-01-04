@@ -1,13 +1,18 @@
 import { Subscription } from "../models/Subscription";
 import { AngularFirestore, DocumentData, QuerySnapshot } from '@angular/fire/firestore';
-import { Observable } from 'rxjs';
-import { Injectable } from '@angular/core';
+import { Observable, Subject } from 'rxjs';
+import { Injectable, Output } from '@angular/core';
+import { takeUntil } from 'rxjs/operators';
 
 @Injectable({
     providedIn: 'root'
 })
 
 export class DbService {
+
+    //private readonly onDestroy = new Subject<void>();
+
+  //  private result : Subscription[] = new Array();
 
     constructor(private db: AngularFirestore) { }
 
@@ -35,13 +40,23 @@ export class DbService {
         return true;
     }
 
-
-   /* readDB() {
-        var items = this.db.collection('subscription').get().toPromise().then(function (querySnapshot) {
-            querySnapshot.forEach(function (doc) {
-                console.log(doc.id, " => ", doc.data());
+   
+   // readDB() : Observable<QuerySnapshot<DocumentData>> {
+         /*this.db.collection('subscription').get().pipe(takeUntil(this.onDestroy)).subscribe(snapshot => {
+            snapshot.forEach(doc => {
+                this.result.concat(<Subscription> doc.data());
+                //console.log(<Subscription>doc.data());
             });
+        }); */
+
+    //    const subscriptionRef = this.db.collection('subscription');
+    //   return subscriptionRef.get();
+
+      /*  snapshot.forEach(doc => {
+            this.result.concat(<Subscription> doc);
+            //console.log(<Subscription>doc.data());
         });
-    } */
+        */
+    //}
 
 }
