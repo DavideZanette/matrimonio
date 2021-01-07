@@ -16,12 +16,12 @@ export class HomePageComponent {
   @Input() subscription: Subscription = new Subscription;
 
   subscriptionSuccessful: boolean = false;
-  dbData : Subscription[];
+  dbData: Subscription[];
 
   constructor(public dbService: DbService, public translate: TranslateService, private readonly router: Router) {
     translate.addLangs(['en', 'it', 'pt']);
     translate.setDefaultLang('en');
-   }
+  }
 
   ngOnInit(): void {
   }
@@ -29,13 +29,25 @@ export class HomePageComponent {
   switchLang(lang: string) {
     this.translate.use(lang);
   }
-  
+
   submitSubscription(form: NgForm) {
     this.subscriptionSuccessful = this.dbService.writeSubscription(this.subscription);
   }
 
-  goToBookingInformation(): void{
+  goToOurStory(): void {
+    this.router.navigate(['ourstory']);
+  }
+
+  goToBookingInformation(): void {
     this.router.navigate(['bookingInformation']);
+  }
+
+  goToConfirmation(): void {
+    this.router.navigate(['confirmation']);
+  }
+
+  goToGifts(): void {
+    this.router.navigate(['gifts']);
   }
 
 }

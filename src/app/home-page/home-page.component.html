@@ -49,13 +49,28 @@
     <div class="center-text">
 
       <div class="row" style="margin-top:20px; margin-bottom:20px;">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+          <button type="button" class="submit-btn" (click)="goToOurStory()">
+            {{'ourStory' | translate }}
+          </button>
+        </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
           <button type="button" class="submit-btn" (click)="goToBookingInformation()">
             {{'bookingInformation' | translate }}
           </button>
         </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+          <button type="button" class="submit-btn" (click)="goToConfirmation()">
+            {{'confirmation' | translate }}
+          </button>
+        </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+          <button type="button" class="submit-btn" (click)="goToGifts()">
+            {{'gifts' | translate }}
+          </button>
+        </div>
       </div>
-      
+
       <hr>
       <br><br>
       <div class="row">

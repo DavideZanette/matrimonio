@@ -13,6 +13,9 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BookingInformationComponent } from './booking-information/booking-information.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { DbDataComponent } from './db-data/db-data.component';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
+import { GiftsComponent } from './gifts/gifts.component';
+import { OurstoryComponent } from './ourstory/ourstory.component';
 
 
 
@@ -21,7 +24,10 @@ import { DbDataComponent } from './db-data/db-data.component';
     AppComponent,
     BookingInformationComponent,
     HomePageComponent,
-    DbDataComponent
+    DbDataComponent,
+    ConfirmationComponent,
+    GiftsComponent,
+    OurstoryComponent
   ],
   imports: [
     BrowserModule,
