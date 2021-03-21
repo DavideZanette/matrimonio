@@ -4,12 +4,12 @@ import { BookingInformationComponent } from './booking-information/booking-infor
 import { ConfirmationComponent } from './confirmation/confirmation.component';
 import { GiftsComponent } from './gifts/gifts.component';
 import { HomePageComponent } from './home-page/home-page.component';
-import { OurstoryComponent } from './ourstory/ourstory.component';
+import { RsvpComponent } from './rsvp/rsvp.component';
 
 const routes: Routes = [
   {
-    path: 'ourstory',
-    component: OurstoryComponent
+    path: 'rsvp',
+    component: RsvpComponent
   },
   {
     path: 'bookingInformation',

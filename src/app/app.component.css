@@ -37,7 +37,7 @@
 1. PRIMARY STYLES
 --------------------------------- */
 
-html{ font-size: 100%; height: 100%; overflow-x: hidden;margin: 0px;  padding: 0px; touch-action: manipulation; }
+html{ font-size: 100%; height: 100%; font-family: 'Bitter', serif; overflow-x: hidden;margin: 0px;  padding: 0px; touch-action: manipulation; }
 
 
 body{ font-size: 16px; font-family: 'Bitter', serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
@@ -118,9 +118,9 @@ b.light-color{ color: #444; }
 .border-btn:hover:before{ transform: translateX(0%); }
 
 
-.section{ padding: 100px 0 70px; }
+/* .section{ padding: 100px 0 70px; }
 
-.section .heading{ padding-bottom: 40px; }
+.section .heading{ padding-bottom: 40px; } */
 
 .section .heading .icon{ font-size: 18px; margin-top: 20px; color: #E45F74; }
 
@@ -254,11 +254,18 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 4. SLIDER
 --------------------------------- */
 
-.contentoverimage{ }
-
+.floatingMenu{z-index: 5; position: fixed; top: 0%; left:0%; width:100%;}
+.menuColor{background-color: #E55D73; border-radius: 0px 0px 10px 10px; margin-right: 1px; margin-left: 1px;}
+.imagemiddle{ position: absolute; width: 100%; top: 40%; text-align: center; text-shadow: 1px 2px black;}
 .imagemid{ position: absolute; width: 100%; top: 80%; text-align: center; text-shadow: 1px 2px black;}
 .imagetopright{position: absolute; width: 30px; top: 1%; right: 5%;}
+.borderRadiusImg{border-radius: 5px;}
+.borderRightImg{ border-right: 1px solid rgba(0,0,0,.1);}
+.borderLeftImg{border-left: 1px solid rgba(0,0,0,.1);}
+.textContentHomePage{ font-family: 'Playball'; color:black;}
+.text-align-center{text-align: center;}
 .alternativeSaveTheDate {display: none;}
+
 
 @media screen and (max-width: 300px) {
 	.imagemid{ /*top: 0% !important;*/
@@ -341,11 +348,11 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 6. REMAINING TIME
 --------------------------------- */
 
-/* .counter-area{ position: relative; z-index: 1; 
-	background-image: url(../assets/images/counter-1-1600x600.jpg); background-size: cover; color: #fff; } */
+/*counter-area{ position: relative; z-index: 1; 
+	background-image: url(../assets/images/counter-1-1600x600.jpg); background-size: cover; color: #fff; }
 
 .counter-area:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; 
-	z-index: -1; background: rgba(0,0,0,.3); }
+	z-index: -1; background: rgba(0,0,0,.3); } */
 	
 .remaining-time .time-sec{ position: relative; display: inline-block; margin: 0 20px; margin-bottom: 30px; 
 	height: 120px; width: 120px; padding-top: 25px; border-radius: 100px; border: 1px solid #fff; }
@@ -610,7 +617,7 @@ footer .copyright{ padding: 20px 0 30px; color: white; }
 	1. PRIMARY STYLES
 	--------------------------------- */
 
-	body{ font-size: 14px;  }
+	body{ font-size: 14px;}
 	
 
 

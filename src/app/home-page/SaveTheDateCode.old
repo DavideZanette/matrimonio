@@ -1,0 +1,74 @@
+<div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+          <div *ngIf="subscriptionSuccessful" style="margin-top: 25%;">
+            <h1 class="title">{{'thankyou' | translate }}<i class="icon icon-heart"></i></h1>
+          </div>
+          <div *ngIf="!subscriptionSuccessful" class="newsletter">
+            <div class="email-area">
+              <form #f="ngForm" (ngSubmit)="submitSubscription(f)">
+                <h4 class="date" style="margin-bottom: 20px;">{{'invitation' | translate }}</h4>
+                <div class="row">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <input class="email-input" minlength="1" type="text" placeholder="{{'name' | translate }}"
+                      name="name" #name="ngModel" [(ngModel)]="subscription.name" required>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <input class="email-input" type="text" placeholder="{{'surname' | translate }}" name="surname"
+                      #surname="ngModel" [(ngModel)]="subscription.surname" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <input class="email-input" type="text" placeholder="{{'email' | translate }}" name="email"
+                      #email="ngModel" [(ngModel)]="subscription.mailAddress">
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <input class="email-input" type="text" placeholder="{{'phoneNumber' | translate }}"
+                      name="phoneNumber" #phoneNumber="ngModel" [(ngModel)]="subscription.phoneNumber">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <input class="email-input" type="text" placeholder="{{'street' | translate }}" name="street"
+                      #street="ngModel" [(ngModel)]="subscription.streetAddress" required>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <input class="email-input" type="text" placeholder="{{'postalCode' | translate }}" name="postalCode"
+                      #postalCode="ngModel" [(ngModel)]="subscription.postalCode" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <input class="email-input" type="text" placeholder="{{'city' | translate }}" name="city"
+                      #city="ngModel" [(ngModel)]="subscription.city" required>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <input class="email-input" type="text" placeholder="{{'country' | translate }}" name="country"
+                      #country="ngModel" [(ngModel)]="subscription.country" required>
+                  </div>
+                </div>
+                <button class="submit-btn" [ngClass]="{'btnSubmitBlocked' : !f.valid}" type="submit"
+                  [disabled]="!f.valid">{{'submit' | translate }}<i
+                    class="icon icon-email-plane submit-icon"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-top: 20px;">
+              <h4 class="date" style="margin-bottom: 20px;">{{'venueBox' | translate }}</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div style="padding-right: 20px;">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2773.11577860715!2d12.133813316232589!3d45.9689470076409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477947d2bc4759d1%3A0x7ac8bd49b1d8a36b!2sCastelBrando!5e0!3m2!1sen!2sit!4v1599916180323!5m2!1sen!2sit"
+                  width="100%" height="375px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                  tabindex="0"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>

@@ -15,7 +15,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { DbDataComponent } from './db-data/db-data.component';
 import { ConfirmationComponent } from './confirmation/confirmation.component';
 import { GiftsComponent } from './gifts/gifts.component';
-import { OurstoryComponent } from './ourstory/ourstory.component';
+import { GiftElementComponent } from './gift-element/gift-element.component';
+import { RsvpComponent } from './rsvp/rsvp.component';
 
 
 
@@ -27,7 +28,8 @@ import { OurstoryComponent } from './ourstory/ourstory.component';
     DbDataComponent,
     ConfirmationComponent,
     GiftsComponent,
-    OurstoryComponent
+    GiftElementComponent,
+    RsvpComponent
   ],
   imports: [
     BrowserModule,

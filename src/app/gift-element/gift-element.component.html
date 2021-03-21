@@ -1,0 +1,4 @@
+<figure class="figure" style="border: 1px solid black; border-radius: 5%; max-width: 200px;" (click)="elementClick(gift)">
+    <img src="{{gift.imgPath}}" class="figure-img img-fluid rounded" style="padding-top: 10px; height: 125px; width: 200px;" alt="{{gift.name | translate}}" (click)="elementClick(gift)">
+    <figcaption class="figure-caption" style="text-align: center;">{{gift.name}}</figcaption>
+</figure>

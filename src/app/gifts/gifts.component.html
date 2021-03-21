@@ -1,1 +1,113 @@
-<p>gifts works!</p>
+<div class="container-fluid circleBackground">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="padding-top: 20px;">
+
+            <div class="imagetopright" style="z-index: 5; position: fixed;">
+                <button type="button" (click)="switchLang('en')" style="margin-bottom: 10px;"><img
+                        src="../assets/flags/United-Kingdom-icon.png"></button>
+                <button type="button" (click)="switchLang('it')" style="margin-bottom: 10px;"><img
+                        src="../assets/flags/Italy-Flag-icon.png"></button>
+                <button type="button" (click)="switchLang('pt')"><img
+                        src="../assets/flags/Brazil-Flag-icon.png"></button>
+                <button style="margin-top:20px;" type="button" (click)="goToHome()"><img
+                        src="../assets/images/home.png"></button>
+            </div>
+            <h3 class="modal-title"><span innerHTML="{{'gifts' | translate}}"></span> - <span
+                    innerHTML="{{'giftsText1' | translate}}"></span></h3>
+            <br><br>
+            <div class="row">
+                <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+                    <h5><span innerHTML="{{'giftText2' | translate}}"></span></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    <div *ngIf="!elementClicked">
+        <div class="row">
+            <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+                <h5><span innerHTML="{{'giftText6' | translate}}"></span></h5>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div *ngFor="let gift of gifts" class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                <app-gift-element [gift]="gift" (elementClicked)="updateElement($event)"
+                    (reaction)="updateReaction($event)"></app-gift-element>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="elementClicked">
+        <div class="row">
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                <div *ngIf="reaction">
+                    <img src="../../assets/images/gifts/reactions/good.png" class="figure-img img-fluid rounded"
+                        style="border-radius: 5%;" alt="Good choice">
+                </div>
+                <div *ngIf="!reaction">
+                    <img src="../../assets/images/gifts/reactions/bad.png" class="figure-img img-fluid rounded"
+                        style="border-radius: 5%;" alt="Bad choice">
+                </div>
+            </div>
+            <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                <div *ngIf="reaction">
+                    <span innerHTML="{{'giftText7' | translate}}" style="color: green; margin-top: 130px;"></span>
+                </div>
+                <div *ngIf="!reaction">
+                    <span innerHTML="{{'giftText8' | translate}}" style="color: red; margin-top: 130px;"></span>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <span innerHTML="{{'giftText3' | translate}}"></span>
+        <br><br>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <img src="../../assets/flags/european-union-flag-large.png" class="img-fluid" alt="UE"
+                                style="width: 50px; height: 50px;">
+                        </div>
+                        <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                            <span innerHTML="{{'giftText4' | translate}}"></span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <img src="../../assets/flags/brazil-flag-large.png" class="img-fluid" alt="Brazil"
+                                style="width: 50px; height: 50px;">
+                        </div>
+                        <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                            <span innerHTML="{{'giftText5' | translate}}"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <p class="copyright">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is
+                made
+                with
+                <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                    target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+    </div>
+</footer>

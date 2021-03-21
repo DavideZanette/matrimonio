@@ -34,8 +34,8 @@ export class HomePageComponent {
     this.subscriptionSuccessful = this.dbService.writeSubscription(this.subscription);
   }
 
-  goToOurStory(): void {
-    this.router.navigate(['ourstory']);
+  goToRsvp(): void {
+    this.router.navigate(['rsvp']);
   }
 
   goToBookingInformation(): void {
