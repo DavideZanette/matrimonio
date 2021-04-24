@@ -8,18 +8,18 @@
         </button>
       </div>
       <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-        <button type="button" class="submit-btn" (click)="goToConfirmation()">
+        <button style="display: none;" type="button" class="submit-btn" (click)="goToRsvp()">
+          {{'rsvp' | translate }}
+        </button>
+      </div>
+      <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+        <button style="display: none;" type="button" class="submit-btn" (click)="goToConfirmation()">
           {{'confirmation' | translate }}
         </button>
       </div>
       <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-        <button type="button" class="submit-btn" (click)="goToGifts()">
+        <button style="display: none;" type="button" class="submit-btn" (click)="goToGifts()">
           {{'gifts' | translate }}
-        </button>
-      </div>
-      <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-        <button type="button" class="submit-btn" (click)="goToRsvp()">
-          {{'rsvp' | translate }}
         </button>
       </div>
       <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
@@ -56,7 +56,7 @@
               <div class="display-table-cell">
                 <div class="slider-content">
                   <i class="small-icon icon icon-tie"></i>
-                  <h5 class="date">28 {{'august' | translate }} 2021</h5>
+                  <h5 class="date"><b>{{'newDate' | translate }}</b> 30 {{'july' | translate }} 2022</h5>
                   <h1 class="title">Ana Carla <i class="icon icon-heart"></i> Davide</h1>
                 </div>
               </div>
@@ -98,7 +98,7 @@
             <div class="heading">
               <h2 class="title"><span innerHTML="{{'homePageText4' | translate}}"></span></h2>
               <span class="heading-bottom"><i class="color-white icon icon-star"></i></span>
-              <h2 class="title">28 {{'august' | translate }} 2021</h2>
+              <h2 class="title">30 {{'july' | translate }} 2022</h2>
             </div>
           </div>
         </div>
@@ -115,47 +115,49 @@
       </div>
     </div>
     <hr>
-    <section class="section w-details-area center-text">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-10">
-            
-            <div class="heading">
-              <h2 class="title" style="color: black;">Wedding Details</h2>
-              <span class="heading-bottom"><i class="icon icon-star"></i></span>
-            </div>
-            
-            <div class="wedding-details margin-bottom">
-              
-              <div class="w-detail right">
-                <i class="icon icon-ciurclke"></i>
-                <h4 class="title" style="color: black;">CEREMONY</h4>
-                <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
+    <div style="display: none;">
+      <section class="section w-details-area center-text">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+
+              <div class="heading">
+                <h2 class="title" style="color: black;">Wedding Details</h2>
+                <span class="heading-bottom"><i class="icon icon-star"></i></span>
               </div>
-              
-              <div class="w-detail left">
-                <i class="icon icon-wine-glass"></i>
-                <h4 class="title" style="color: black;">TOAST & DINNER</h4>
-                <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
-              </div>
-              
-              <div class="w-detail right">
-                <i class="icon icon-cake"></i>
-                <h4 class="title" style="color: black;">WEDDING CAKE</h4>
-                <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
-              </div>
-              
-              <div class="w-detail left">
-                <i class="icon icon-camera"></i>
-                <h4 class="title" style="color: black;">PHOTOGRAPHY</h4>
-                <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
+
+              <div class="wedding-details margin-bottom">
+
+                <div class="w-detail right">
+                  <i class="icon icon-ciurclke"></i>
+                  <h4 class="title" style="color: black;">CEREMONY</h4>
+                  <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
+                </div>
+
+                <div class="w-detail left">
+                  <i class="icon icon-wine-glass"></i>
+                  <h4 class="title" style="color: black;">TOAST & DINNER</h4>
+                  <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
+                </div>
+
+                <div class="w-detail right">
+                  <i class="icon icon-cake"></i>
+                  <h4 class="title" style="color: black;">WEDDING CAKE</h4>
+                  <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
+                </div>
+
+                <div class="w-detail left">
+                  <i class="icon icon-camera"></i>
+                  <h4 class="title" style="color: black;">PHOTOGRAPHY</h4>
+                  <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </div>
 
   <!-- FINE CONTENT -->
@@ -166,7 +168,7 @@
         <div class="display-table-cell">
           <div class="slider-content">
             <i class="small-icon icon icon-tie"></i>
-            <h5 class="date">28 {{'august' | translate }} 2021</h5>
+            <h5 class="date">30 {{'july' | translate }} 2022</h5>
             <h3 class="pre-title">Save The Date</h3>
             <h1 class="title">Ana Carla <i class="icon icon-heart"></i> Davide</h1>
           </div><!-- slider-content-->

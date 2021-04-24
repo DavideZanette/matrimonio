@@ -17,13 +17,13 @@
 	"bookingAtCastelBrandoText": "O local onde será realizado o casamento também é um hotel que disponibiliza um número limitado de quartos a uma tarifa reduzida para os nossos convidados. Os quartos serão disponibilizados tanto no castelo quanto em uma dependência em frente ao teleférico que dá acesso direto ao local do casamento. Os hóspedes da dependência terão o Café da manhã servido no castelo, assim como acesso a todas as áreas em comum.",
 	"bookingAtCastelBrandoText1" : "Se desejar reservar no Hotel Castelbrando à preços reduzidos, por favor contate o hotel clicando no botão abaixo ou mandando um e-mail diretamente ao hotel em <a style=\"color: blue;\" href=\"hotel@castelbrando.it\">hotel@castelbrando.it.</a>. <br><br><i>Não será possível reservar o Hotel CastelBrando pelo site da Booking ou pelo site do hotel, visto que todos os quartos foram reservados para o casamento. <br>A reserva do hotel Castelbrando somente poderá ser feita por e-mail em inglês ou em italiano, no hotel eles não falam português. Para facilitar, colocamos abaixo um exemplo de e-mail a ser enviado para o hotel já escrito em inglês, sendo assim basta selecionar a opção de quarto e dias desejados.</i><br><br>Para acessar às tarifas reduzidas, no e-mail com o pedido de solicitação da reserva, é necessário informar ao hotel que os titulares do quarto são convidados do nosso casamento. Para confirmação do quarto, o hotel irá solicitar um número de cartão de crédito como garantia. <br><b>Tradução em português da sugestão de e-mail abaixo:</b>( O hotel não aceita e-mail em português. Esta é apenas uma tradução do exemplo abaixo para facilitar aos que não falam inglês ou italiano)<br><br>",
 	"bookingAtCastelBrandoText14": "<b>Exemplo de email para a solicitação de  tarifa descontada.<b>",
-	"emailBodyPT1":"<b>Para:</b> <a style=\"color: blue;\" href=\"hotel@castelbrando.it\">hotel@castelbrando.it.</a><br><b>Assunto</b>:Booking request (Nome Sobrenome)<br><br>-Prenotazione camera matrimonio Maia Zanette 28ago2021 con accesso a tariffa agevolata-<br><br>Dear CastelBrando Hotel,<br>I would like to make a reservation, bellow all the informations.<br><b>Room 1:</b> ( Escolha o tipo de quarto entre: single/double classic/double superior/suite)<br><b>In name of:</b> ( Escreva aqui o nome da pessoa que vai ficar no quarto. Basta uma)<br><b>For the dates:</b> ( Coloque aqui os dias desejados para a reserva: the night of 27th and/ 28th August 2021 )<br><b>Location:</b> castle/dependance ( escolha se a reserva será no castelo ou na dependência)<br><br>Name Surname (Nome e sobrenome)<br>Thank you<br>Regards<br>",
+	"emailBodyPT1":"<b>Para:</b> <a style=\"color: blue;\" href=\"hotel@castelbrando.it\">hotel@castelbrando.it.</a><br><b>Assunto</b>:Booking request (Nome Sobrenome)<br><br>-Prenotazione camera matrimonio Maia Zanette 30lug2022 con accesso a tariffa agevolata-<br><br>Dear CastelBrando Hotel,<br>I would like to make a reservation, bellow all the informations.<br><b>Room 1:</b> ( Escolha o tipo de quarto entre: single/double classic/double superior/suite)<br><b>In name of:</b> ( Escreva aqui o nome da pessoa que vai ficar no quarto. Basta uma)<br><b>For the dates:</b> ( Coloque aqui os dias desejados para a reserva: the night of 29th and/ 30th July 2022 )<br><b>Location:</b> castle/dependance ( escolha se a reserva será no castelo ou na dependência)<br><br>Name Surname (Nome e sobrenome)<br>Thank you<br>Regards<br>",
 	"bookingButton": "Reserve por email",
-	"emailBody": "-Prenotazione camera matrimonio Maia Zanette 28ago2021 con accesso a tariffa agevolata- %0D%0A%0D%0A Dear CastelBrando Hotel, %0D%0A I would like to make a reservation for 1 (single/double classic/double superior/suite) room for the night of 28th August 2021. %0D%0A Name Surname %0D%0A Thank you %0D%0A Regards",
+	"emailBody": "-Prenotazione camera matrimonio Maia Zanette 30lug2022 con accesso a tariffa agevolata- %0D%0A%0D%0A Dear CastelBrando Hotel, %0D%0A I would like to make a reservation for 1 (single/double classic/double superior/suite) room for the night of 30th July 2022. %0D%0A Name Surname %0D%0A Thank you %0D%0A Regards",
 	"bookingAtCastelBrandoText2": "CastelBrando, Café da manhã incluso (No castelo)",
 	"bookingAtCastelBrandoText3": "Tipos de quartos",
-	"bookingAtCastelBrandoText4": "Preços para a noite do dia 27/08/2021",
-	"bookingAtCastelBrandoText5": "Preços para a noite do dia  28/08/2021",
+	"bookingAtCastelBrandoText4": "Preços para a noite do dia 29/07/2022",
+	"bookingAtCastelBrandoText5": "Preços para a noite do dia  30/07/2022",
 	"bookingAtCastelBrandoText6": "Quarto individual",
 	"pluralEuro": "s",
 	"bookingAtCastelBrandoText7": "<a style=\"color: blue;\" target=\"_blank\" href=\"https:\\\\www.castelbrando.it\\camere-suites\\camera-classica\">Quarto de Casal</a>",
@@ -38,7 +38,35 @@
 	"min5Car": "5 minutos de carro",
 
 
+	"ourStory": "Postponed",
 	"rsvp": "RSVP",
 	"confirmation": "Confirmation",
-	"gifts": "Gifts"
+	"gifts": "Wedding Gifts",
+	"giftsText1": "And they lived happily even after",
+	"giftText2": "Your presence at our Wedding is the greatest gift of all. But, if you were thinking of giving a gift to help us on our way a gift of cash towards our honeymoon would really make our day. However, if you prefer a gift, feel free to surprise us in your own special way.",
+	"giftText6": "Where would you like to see us next?",
+	"giftText3": "If you want to give us a gift of cash we made available some solutions for your convenience.",
+	"giftText4": "From EU countries and the UK, you can send us your gift either by Debit/Credit card or wire transfer as per your preference.<br><br><ul><li>To use a <b>Debit/Credit card (managed by PayPal)</b>: click on this <a style=\"color: blue;\" href=\"https://www.paypal.com/pools/c/8uGb6MrYq7/guest/amount\" target=\"_blank\">link</a>, and follow the guided procedure.</li><br><li>To use the <b>wire transfer</b> you can refer to this bank account address: <ul><li>Recipient: Zanette Davide Saraiva Azevedo Maia Ana Carla</li><li>IBAN: IT53K0339512900052123684630</li><li>SWIFT: ITTPIT2MXXX</li><li>BANK: BANCA INTERPROVINCIALE SOCIETA' PER AZIONI</li></ul> </li></ul>",
+	"giftText5": "From Brazil, you can send us your gift by wire transfer.<br>",
+	"giftText7": "Yesss! It is exactly where I want to go!",
+	"giftText8": "... I am sure there is a better destination...",
+
+	
+
+	"homePageText1": "As the pandemic still does not allow a safe, thoughtless and comfortable situation where to enjoy our day with our dearest friends and relatives, we have thought it is wiser to postpone the wedding. We would be glad to welcome you to our wedding on <b>July 2022, the 30th</b>.",
+	"homePageText2": "We look forward to the next year with hope, serenity and happiness to share this important day with our most loved.",
+	"homePageText3": "<b>Castelbrando</b><br>With 2000 years of history, surrounded by 50 hectares of greenery, Castelbrando is much more than a castle. Located in the heart of the Prosecco hills, in the medieval village of Cison di Valmarino, between Venice and the Dolomites, it is the starting point for visits to wineries, walks in nature trails, cultural visits and much more.<br><a style=\"color: blue;\" href=\"https://goo.gl/maps/5XwEH6iaYb5eAk8E6\" target=\"_blank\">Location Castelbrando</a>",
+	"homePageText4": "Do not miss it!",
+	"july": "JULY",
+	"newDate": "NEW DATE",
+
+
+	"rsvpText1": "<b>Is the wedding date changed?</b> Yes, due to the uncertainty generated by the pandemic we have moved our wedding date to July 2022, the 30th.",
+	"rsvpText2": "<b>Is the new wedding date confirmed?</b> Yes, the new wedding date has been already confirmed with CastelBrando.",
+	"rsvpText3": "<b>What about my booking at the Hotel for August 2021 the 28th?</b> If you have already booked a room in CastelBrando with the reservation linked to our wedding event your reservation has been automatically cancelled from the hotel. No fees are applied.",
+	"rsvpText4": "<b>Is there any fee for the cancellation of the reservation at CastelBrando?</b> If your reservation is related to our wedding there is no fee to pay.",
+	"rsvpText5": "<b>Should I make a new reservation for July 2022, the 30th?</b> Yes, you need to make a new reservation as your reservation for August 2021 the 28th has been automatically cancelled.",
+	"rsvpText6": "<b>Can I already book/rebook my flight?</b> Yes, the date is confirmed. You can book your flight.",
+	"rsvpText7": "<b>For any other questions you can get in touch with us.</b>",
+	"rsvpText8": "<b>Questions & answers</b>"
 }

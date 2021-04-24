@@ -26,4 +26,16 @@ export class BookingInformationComponent implements OnInit {
     this.router.navigate(['homePage']);
   }
 
+  goToRsvp(): void{
+    this.router.navigate(['homePage']);
+  }
+
+  goToConfirmation(): void{
+    this.router.navigate(['homePage']);
+  }
+
+  goToGifts(): void{
+    this.router.navigate(['homePage']);
+  }
+
 }

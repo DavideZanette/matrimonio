@@ -1,7 +1,8 @@
 import { Subscription } from "../models/Subscription";
 import { AngularFirestore, DocumentData, QuerySnapshot } from '@angular/fire/firestore';
-import { Observable, Subject } from 'rxjs';
-import { Injectable, Output } from '@angular/core';
+//import { collection, getDocs } from "@angular/fire/firestore";
+import { Observable } from 'rxjs';
+import { Injectable } from '@angular/core';
 import { takeUntil } from 'rxjs/operators';
 
 @Injectable({
@@ -41,22 +42,17 @@ export class DbService {
     }
 
    
-   // readDB() : Observable<QuerySnapshot<DocumentData>> {
-         /*this.db.collection('subscription').get().pipe(takeUntil(this.onDestroy)).subscribe(snapshot => {
-            snapshot.forEach(doc => {
-                this.result.concat(<Subscription> doc.data());
-                //console.log(<Subscription>doc.data());
-            });
-        }); */
+  /*  readDB() : Observable<QuerySnapshot<DocumentData>> {
+         this.db.collection('subscription').get().pipe(takeUntil(this.onDestroy)).subscribe(snapshot => {
+        
+            
 
-    //    const subscriptionRef = this.db.collection('subscription');
-    //   return subscriptionRef.get();
-
-      /*  snapshot.forEach(doc => {
-            this.result.concat(<Subscription> doc);
-            //console.log(<Subscription>doc.data());
-        });
-        */
-    //}
+            const querySnapshot = await getDocs(collection(db, "cities"));
+querySnapshot.forEach((doc) => {
+  // doc.data() is never undefined for query doc snapshots
+  console.log(doc.id, " => ", doc.data());
+});
+        
+    }*/
 
 }

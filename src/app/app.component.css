@@ -37,10 +37,10 @@
 1. PRIMARY STYLES
 --------------------------------- */
 
-html{ font-size: 100%; height: 100%; font-family: 'Bitter', serif; overflow-x: hidden;margin: 0px;  padding: 0px; touch-action: manipulation; }
+html{ font-size: 100%; height: 100%; font-family: 'Philosopher', serif; overflow-x: hidden;margin: 0px;  padding: 0px; touch-action: manipulation; }
 
 
-body{ font-size: 16px; font-family: 'Bitter', serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
+body{ font-size: 16px; font-family: 'Philosopher', serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
 	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; 
 	color: #333; }
 
@@ -262,7 +262,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .borderRadiusImg{border-radius: 5px;}
 .borderRightImg{ border-right: 1px solid rgba(0,0,0,.1);}
 .borderLeftImg{border-left: 1px solid rgba(0,0,0,.1);}
-.textContentHomePage{ font-family: 'Playball'; color:black;}
+.textContentHomePage{ font-family: 'Philosopher'; color:black; font-style: italic;}
 .text-align-center{text-align: center;}
 .alternativeSaveTheDate {display: none;}
 

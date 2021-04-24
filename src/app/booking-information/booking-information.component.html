@@ -1,85 +1,141 @@
 <div class="container-fluid circleBackground">
-    <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="padding-top: 20px;">
+    <!-- INIZIO MENU -->
+    <div class="floatingMenu">
+        <div class="container-fluid">
+            <div class="row menuColor">
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                    <button type="button" class="submit-btn" (click)="goToHome()">
+                        {{'bookingInformation' | translate }}
+                    </button>
+                </div>
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                    <button style="display: none;" type="button" class="submit-btn" (click)="goToRsvp()">
+                        {{'rsvp' | translate }}
+                    </button>
+                </div>
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                    <button style="display: none;" type="button" class="submit-btn" (click)="goToConfirmation()">
+                        {{'confirmation' | translate }}
+                    </button>
+                </div>
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                    <button style="display: none;" type="button" class="submit-btn" (click)="goToGifts()">
+                        {{'gifts' | translate }}
+                    </button>
+                </div>
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                </div>
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2" style="text-align: right;">
+                    <button type="button" (click)="switchLang('en')"
+                        style="max-width: 30px; margin-right: 10px; margin-top: 10px;"><img
+                            src="../assets/flags/United-Kingdom-icon.png"></button>
+                    <button type="button" (click)="switchLang('it')"
+                        style="max-width: 30px; margin-right: 10px; margin-top: 10px;"><img
+                            src="../assets/flags/Italy-Flag-icon.png"></button>
+                    <button type="button" (click)="switchLang('pt')"
+                        style="max-width: 30px; margin-right: 10px; margin-top: 10px;"><img
+                            src="../assets/flags/Brazil-Flag-icon.png"></button>
+                </div>
 
-            <div class="imagetopright" style="z-index: 5; position: fixed;">
-                <button type="button" (click)="switchLang('en')" style="margin-bottom: 10px;"><img
-                        src="../assets/flags/United-Kingdom-icon.png"></button>
-                <button type="button" (click)="switchLang('it')" style="margin-bottom: 10px;"><img
-                        src="../assets/flags/Italy-Flag-icon.png"></button>
-                <button type="button" (click)="switchLang('pt')"><img
-                        src="../assets/flags/Brazil-Flag-icon.png"></button>
-                <button style="margin-top:20px;" type="button" (click)="goToHome()"><img src="../assets/images/home.png"></button>
             </div>
-            <b>
-                <h3 class="modal-title" id="exampleModalLabel"><span innerHTML="{{'bookingAtCastelBrandoTitle' | translate}}" ></span></h3>
-            </b>
-            <img src="../../assets/images/CastelBrandoAndDependance.png" class="img-fluid" alt="Responsive image">
+        </div>
+    </div>
+    <!-- FINE MENU -->
+    <b>
+        <h3 class="modal-title" style="padding-top: 50px;" id="exampleModalLabel"><span
+                innerHTML="{{'bookingAtCastelBrandoTitle' | translate}}"></span></h3>
+    </b>
+    <img src="../../assets/images/CastelBrandoAndDependance.png" class="img-fluid" alt="Responsive image">
+
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-top:10px;">
+            <h5><span innerHTML="{{'rsvpText8' | translate}}"></span></h5>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-top:10px;">
+            <h5><span innerHTML="{{'rsvpText1' | translate}}"></span></h5>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-top:10px;">
+            <h5><span innerHTML="{{'rsvpText2' | translate}}"></span></h5>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-top:10px;">
+            <h5><span innerHTML="{{'rsvpText3' | translate}}"></span></h5>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-top:10px;">
+            <h5><span innerHTML="{{'rsvpText4' | translate}}"></span></h5>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-top:10px;">
+            <h5><span innerHTML="{{'rsvpText5' | translate}}"></span></h5>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-top:10px;">
+            <h5><span innerHTML="{{'rsvpText6' | translate}}"></span></h5>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-top:10px;">
+            <h5><span innerHTML="{{'rsvpText7' | translate}}"></span></h5>
         </div>
     </div>
     <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="padding-top: 20px;">
-            <span innerHTML="{{'bookingAtCastelBrandoText' | translate}}" ></span>
+            <span innerHTML="{{'bookingAtCastelBrandoText' | translate}}"></span>
             <br><br>
             <table class="table table-striped">
                 <tr>
-                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText2' | translate}}" ></span></th>
+                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText2' | translate}}"></span></th>
                 </tr>
                 <tr>
-                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText3' | translate}}" ></span></th>
-                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText4' | translate}}" ></span></th>
-                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText5' | translate}}" ></span></th>
+                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText3' | translate}}"></span></th>
+                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText4' | translate}}"></span></th>
+                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText5' | translate}}"></span></th>
                 </tr>
                 <tr>
-                    <td><span innerHTML="{{'bookingAtCastelBrandoText6' | translate}}" ></span></td>
-                    <td>92 euro<span innerHTML="{{'pluralEuro' | translate}}" ></span></td>
-                    <td>112 euro<span innerHTML="{{'pluralEuro' | translate}}" ></span></td>
+                    <td><span innerHTML="{{'bookingAtCastelBrandoText6' | translate}}"></span></td>
+                    <td>92 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+                    <td>112 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
                 </tr>
                 <tr>
-                    <td><span innerHTML="{{'bookingAtCastelBrandoText7' | translate}}" ></span></td>
-                    <td>128 euro<span innerHTML="{{'pluralEuro' | translate}}" ></span></td>
-                    <td>142 euro<span innerHTML="{{'pluralEuro' | translate}}" ></span></td>
+                    <td><span innerHTML="{{'bookingAtCastelBrandoText7' | translate}}"></span></td>
+                    <td>128 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+                    <td>142 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
                 </tr>
                 <tr>
-                    <td><span innerHTML="{{'bookingAtCastelBrandoText8' | translate}}" ></span></td>
-                    <td>142 euro<span innerHTML="{{'pluralEuro' | translate}}" ></span></td>
-                    <td>152 euro<span innerHTML="{{'pluralEuro' | translate}}" ></span></td>
+                    <td><span innerHTML="{{'bookingAtCastelBrandoText8' | translate}}"></span></td>
+                    <td>142 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+                    <td>152 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
                 </tr>
                 <tr>
-                    <td><span innerHTML="{{'bookingAtCastelBrandoText9' | translate}}" ></span></td>
-                    <td>212 euro<span innerHTML="{{'pluralEuro' | translate}}" ></span></td>
-                    <td>262 euro<span innerHTML="{{'pluralEuro' | translate}}" ></span></td>
+                    <td><span innerHTML="{{'bookingAtCastelBrandoText9' | translate}}"></span></td>
+                    <td>212 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+                    <td>262 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
                 </tr>
                 <tr>
-                    <td><span innerHTML="{{'bookingAtCastelBrandoText10' | translate}}" ></span></td>
-                    <td>282 euro<span innerHTML="{{'pluralEuro' | translate}}" ></span></td>
-                    <td>302 euro<span innerHTML="{{'pluralEuro' | translate}}" ></span></td>
+                    <td><span innerHTML="{{'bookingAtCastelBrandoText10' | translate}}"></span></td>
+                    <td>282 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+                    <td>302 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
                 </tr>
                 <tr>
-                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText11' | translate}}" ></span></th>
+                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText11' | translate}}"></span></th>
                 </tr>
                 <tr>
-                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText3' | translate}}" ></span></th>
-                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText4' | translate}}" ></span></th>
-                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText5' | translate}}" ></span></th>
+                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText3' | translate}}"></span></th>
+                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText4' | translate}}"></span></th>
+                    <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText5' | translate}}"></span></th>
                 </tr>
                 <tr>
-                    <td><span innerHTML="{{'bookingAtCastelBrandoText6' | translate}}" ></span></td>
-                    <td>90 euro<span innerHTML="{{'pluralEuro' | translate}}" ></span></td>
-                    <td>102 euro<span innerHTML="{{'pluralEuro' | translate}}" ></span></td>
+                    <td><span innerHTML="{{'bookingAtCastelBrandoText6' | translate}}"></span></td>
+                    <td>90 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+                    <td>102 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
                 </tr>
                 <tr>
-                    <td><span innerHTML="{{'bookingAtCastelBrandoText12' | translate}}" ></span></td>
-                    <td>110 euro<span innerHTML="{{'pluralEuro' | translate}}" ></span></td>
-                    <td>122 euro<span innerHTML="{{'pluralEuro' | translate}}" ></span></td>
+                    <td><span innerHTML="{{'bookingAtCastelBrandoText12' | translate}}"></span></td>
+                    <td>110 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+                    <td>122 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
                 </tr>
             </table>
 
-            <span innerHTML="{{'bookingAtCastelBrandoText1' | translate}}" ></span>
+            <span innerHTML="{{'bookingAtCastelBrandoText1' | translate}}"></span>
 
-            <span innerHTML="{{'bookingAtCastelBrandoText14' | translate}}" ></span>
+            <span innerHTML="{{'bookingAtCastelBrandoText14' | translate}}"></span>
             <div class="jumbotron">
-                <span innerHTML="{{'emailBodyPT1' | translate}}" ></span>
+                <span innerHTML="{{'emailBodyPT1' | translate}}"></span>
             </div>
 
 
@@ -97,7 +153,7 @@
             <b>
                 <h3 class="modal-title" id="exampleModalLabel">{{'bookingOtherOptions' | translate }}</h3>
             </b>
-            <span innerHTML="{{'bookingOtherOptionsText1' | translate }}" ></span>
+            <span innerHTML="{{'bookingOtherOptionsText1' | translate }}"></span>
             <br><br>
             <table class="table table-striped">
                 <tr>
