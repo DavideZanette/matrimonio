@@ -1,5 +1,5 @@
 
-export class Subscription{
+export class SubscriptionModel{
 
  id?: string;
  name?: string;

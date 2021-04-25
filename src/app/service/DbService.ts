@@ -1,9 +1,9 @@
-import { Subscription } from "../models/Subscription";
-import { AngularFirestore, DocumentData, QuerySnapshot } from '@angular/fire/firestore';
-//import { collection, getDocs } from "@angular/fire/firestore";
-import { Observable } from 'rxjs';
-import { Injectable } from '@angular/core';
+
+import { AngularFirestore, AngularFirestoreCollection, DocumentData, QuerySnapshot } from '@angular/fire/firestore';
+import { Observable, Subscription } from 'rxjs';
+import { EventEmitter, Injectable, Output } from '@angular/core';
 import { takeUntil } from 'rxjs/operators';
+import { SubscriptionModel } from '../models/SubscriptionModel';
 
 @Injectable({
     providedIn: 'root'
@@ -11,14 +11,9 @@ import { takeUntil } from 'rxjs/operators';
 
 export class DbService {
 
-    //private readonly onDestroy = new Subject<void>();
-
-  //  private result : Subscription[] = new Array();
-
     constructor(private db: AngularFirestore) { }
 
-
-    writeSubscription(subscription: Subscription): boolean {
+    writeSubscription(subscription: SubscriptionModel): boolean {
 
         this.db.collection("subscription").doc(subscription.name + subscription.surname).set({
             name: subscription.name,
@@ -30,29 +25,20 @@ export class DbService {
             city: subscription.city,
             country: subscription.country
         })
-            
-        .then(function () {
+
+            .then(function () {
                 console.log("Document successfully written!");
             })
-        .catch(function (error) {
+            .catch(function (error) {
                 console.error("Error writing document: ", error);
-        });
+            });
 
         return true;
     }
 
-   
-  /*  readDB() : Observable<QuerySnapshot<DocumentData>> {
-         this.db.collection('subscription').get().pipe(takeUntil(this.onDestroy)).subscribe(snapshot => {
-        
-            
 
-            const querySnapshot = await getDocs(collection(db, "cities"));
-querySnapshot.forEach((doc) => {
-  // doc.data() is never undefined for query doc snapshots
-  console.log(doc.id, " => ", doc.data());
-});
-        
-    }*/
+    readSubscriptionFromDB(): Observable<QuerySnapshot<DocumentData>> {
+        return this.db.collection("subscription").get();
+    }
 
 }

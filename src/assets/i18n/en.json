@@ -67,8 +67,8 @@
 	"rsvpText5": "<b>Should I make a new reservation for July 2022, the 30th?</b> Yes, you need to make a new reservation as your reservation for August 2021 the 28th has been automatically cancelled.",
 	"rsvpText6": "<b>Can I already book/rebook my flight?</b> Yes, the date is confirmed. You can book your flight.",
 	"rsvpText7": "<b>For any other questions you can get in touch with us.</b>",
-	"rsvpText8": "<b>Questions & answers</b>"
+	"rsvpText8": "<b>Questions & answers</b>",
 	
-	
+	"homePage": "Home page"
 
 }

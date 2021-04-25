@@ -10,13 +10,13 @@ import { FormsModule } from '@angular/forms';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { BookingInformationComponent } from './booking-information/booking-information.component';
-import { HomePageComponent } from './home-page/home-page.component';
-import { DbDataComponent } from './db-data/db-data.component';
-import { ConfirmationComponent } from './confirmation/confirmation.component';
-import { GiftsComponent } from './gifts/gifts.component';
-import { GiftElementComponent } from './gift-element/gift-element.component';
-import { RsvpComponent } from './rsvp/rsvp.component';
+import { BookingInformationComponent } from './components/booking-information/booking-information.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { DbDataComponent } from './pages/db-data/db-data.component';
+import { ConfirmationComponent } from './pages/confirmation/confirmation.component';
+import { GiftsComponent } from './pages/gifts/gifts.component';
+import { GiftElementComponent } from './components/gift-element/gift-element.component';
+import { RsvpComponent } from './pages/rsvp/rsvp.component';
 
 
 
@@ -29,7 +29,7 @@ import { RsvpComponent } from './rsvp/rsvp.component';
     ConfirmationComponent,
     GiftsComponent,
     GiftElementComponent,
-    RsvpComponent
+    RsvpComponent,
   ],
   imports: [
     BrowserModule,

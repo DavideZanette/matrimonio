@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { BookingInformationComponent } from './booking-information/booking-information.component';
-import { ConfirmationComponent } from './confirmation/confirmation.component';
-import { GiftsComponent } from './gifts/gifts.component';
-import { HomePageComponent } from './home-page/home-page.component';
-import { RsvpComponent } from './rsvp/rsvp.component';
+import { BookingInformationComponent } from './components/booking-information/booking-information.component';
+import { ConfirmationComponent } from './pages/confirmation/confirmation.component';
+import { DbDataComponent } from './pages/db-data/db-data.component';
+import { GiftsComponent } from './pages/gifts/gifts.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { RsvpComponent } from './pages/rsvp/rsvp.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'homePage',
     component: HomePageComponent
+  },
+  {
+    path: 'DBData',
+    component: DbDataComponent
   },
   {
     path: '',   redirectTo: '/homePage', pathMatch: 'full'

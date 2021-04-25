@@ -2,13 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Router } from '@angular/router';
 
-
 @Component({
-  selector: 'app-booking-information',
-  templateUrl: './booking-information.component.html',
-  styleUrls: ['../app.component.css']
+  selector: 'app-rsvp',
+  templateUrl: './rsvp.component.html'
 })
-export class BookingInformationComponent implements OnInit {
+export class RsvpComponent implements OnInit {
 
   constructor(public translate: TranslateService, private readonly router: Router) {
     translate.addLangs(['en', 'it', 'pt']);
@@ -23,18 +21,6 @@ export class BookingInformationComponent implements OnInit {
   }
 
   goToHome(): void{
-    this.router.navigate(['homePage']);
-  }
-
-  goToRsvp(): void{
-    this.router.navigate(['homePage']);
-  }
-
-  goToConfirmation(): void{
-    this.router.navigate(['homePage']);
-  }
-
-  goToGifts(): void{
     this.router.navigate(['homePage']);
   }
 

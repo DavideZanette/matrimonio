@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
-import { Gift } from '../models/Gift'
+import { Gift } from '../../models/Gift'
 
 @Component({
   selector: 'app-gifts',
-  templateUrl: './gifts.component.html',
-  styleUrls: ['../app.component.css']
+  templateUrl: './gifts.component.html'
 })
 export class GiftsComponent implements OnInit {
 

@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-confirmation',
-  templateUrl: './confirmation.component.html',
-  styleUrls: ['../app.component.css']
+  templateUrl: './confirmation.component.html'
 })
 export class ConfirmationComponent implements OnInit {
 

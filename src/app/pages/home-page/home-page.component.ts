@@ -1,29 +1,25 @@
 import { Component, Input } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { Subscription } from "../models/Subscription";
-import { DbService } from "../service/DbService";
+import { SubscriptionModel } from "../../models/SubscriptionModel";
+import { DbService } from "../../service/DbService";
 import { TranslateService } from '@ngx-translate/core';
 import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home-page',
-  templateUrl: './home-page.component.html',
-  styleUrls: ['../app.component.css']
+  templateUrl: './home-page.component.html'
 })
 
 export class HomePageComponent {
 
-  @Input() subscription: Subscription = new Subscription;
+  @Input() subscription: SubscriptionModel = new SubscriptionModel;
 
   subscriptionSuccessful: boolean = false;
-  dbData: Subscription[];
+
 
   constructor(public dbService: DbService, public translate: TranslateService, private readonly router: Router) {
     translate.addLangs(['en', 'it', 'pt']);
     translate.setDefaultLang('en');
-  }
-
-  ngOnInit(): void {
   }
 
   switchLang(lang: string) {
@@ -50,4 +46,9 @@ export class HomePageComponent {
     this.router.navigate(['gifts']);
   }
 
+  goToDBData(): void {
+    this.router.navigate(['DBData']);
+  }
+
+  
 }
