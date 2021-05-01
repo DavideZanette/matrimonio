@@ -55,21 +55,13 @@
 
 	"homePageText1": "Considerata la sisutazione imposta dalla pandemia riteniamo saggio spostare la data del matrimonio per offire a tutti una situazione sicura e confortevole in cui celebrare l'evento. Siamo lieti di celebrare il nostro matrimonio il giorno <b>30 Luglio 2022</b>.",
 	"homePageText2": "Guardiamo al prossimo anno con speranza, serenità e felicità aspettando di condividere questo importante giorno con le persone più strette.",
-	"homePageText3": "<b>Castelbrando</b><br>Con 2000 anni di storia, circondato da 50 ettari di verde, Castelbrando è molto più di un castello. Situato nel cuore delle valli del Prosecco, nel villaggio medievale di Cison di Valmarino, tra Venezia e le Dolomiti, è il punto di partenza per visite a cantine vinicole locali, camminate nella natura, visite culturali e molto di più.<br><a style=\"color: blue;\" href=\"https://goo.gl/maps/5XwEH6iaYb5eAk8E6\" target=\"_blank\">Location Castelbrando</a>",
-	"homePageText4": "Non mancare!",
+	"homePageText3": "<b>Castelbrando</b><br><a style=\"color: blue;\" href=\"https://goo.gl/maps/5XwEH6iaYb5eAk8E6\" target=\"_blank\">Location Castelbrando</a>",
+	"homePageText4": "Do not miss it!",
 	"july": "LUGLIO",
 	"newDate": "NUOVA DATA",
 
 
-	"rsvpText1": "<b>La data del matrimonio è cambiata?</b> Si, a causa dell'incertezza generata dalla pandemia abbiamo preferito spostare la data del matrimonio al 30 Luglio 2022.",
-	"rsvpText2": "<b>La nuova data è confermata?</b> Si, la nuova data è stata già confermata con CastelBrando.",
-	"rsvpText3": "<b>Se avevo già prenotato l'hotel per il 28 Agosto 2021?</b> Se avevi già prenotato l'hotel per il 28 Agosto con prenotazione collegata al nostro matrimonio la prenotazione viene automaticamente cancellata dall'hotel. Non ci sono penali da pagare.",
-	"rsvpText4": "<b>C'è qualche penale da pagare per la cancellazione della prenotazione a CastelBrando?</b> Se la tua prenotazione è collegata al nostro matrimonio non c'è nessuna penale da pagare.",
-	"rsvpText5": "<b>Devo fare una nuova prenotazione per il 30 Luglio 2022?</b> Si, è necessario riprenotare in quanto le prenotazioni per il 28 Agosto 2021 vengono cancellate dall'hotel.",
-	"rsvpText6": "<b>Posso già prenotare/riprenotare il volo aereo?</b> Si, se hai bisogno di prenotare/riprenotare il volo puoi già farlo.",
-	"rsvpText7": "<b>Per qualsiasi altra domanda contattaci</b>",
-	"rsvpText8": "<b>Questions & answers</b>",
-
+	"rsvpText1": "<b>A causa dell'incertezza generata dalla pandemia abbiamo preferito spostare la data del matrimonio al 30 Luglio 2022. La nuova data è stata già confermata con CastelBrando. Se avevi già prenotato l'hotel per il 28 Agosto con prenotazione collegata al nostro matrimonio la prenotazione è automaticamente cancellata dall'hotel. Non ci sono penali da pagare.",
 	"homePage": "Home page"
 
 }

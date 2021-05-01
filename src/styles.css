@@ -309,18 +309,22 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 @media screen and (min-width: 701px) and (max-width: 1000px) {
 	.imagemid{ top: 60% !important;}
+	.textmiddle{ position: absolute; width: 90%; top: 40%; text-align: center;}
 }
 
 @media screen and (min-width: 1001px) and (max-width: 1400px) {
 	.imagemid{ top: 65% !important;}
+	.textmiddle{ position: absolute; width: 90%; top: 40%; text-align: center;}
 }
 
 @media screen and (min-width: 1401px) and (max-width: 1700px) {
 	.imagemid{ top: 70% !important;}
+	.textmiddle{ position: absolute; width: 90%; top: 40%; text-align: center;}
 }
 
 @media screen and (min-width: 1701px) and (max-width: 2000px) {
 	.imagemid{ top: 75% !important;}
+	.textmiddle{ position: absolute; width: 90%; top: 40%; text-align: center;}
 }
 
 .main-slider{ height: auto; position: relative; z-index: 1; 
