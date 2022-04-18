@@ -17,6 +17,7 @@ import { ConfirmationComponent } from './pages/confirmation/confirmation.compone
 import { GiftsComponent } from './pages/gifts/gifts.component';
 import { GiftElementComponent } from './components/gift-element/gift-element.component';
 import { RsvpComponent } from './pages/rsvp/rsvp.component';
+import { HeaderComponent } from './pages/header/header.component';
 
 
 
@@ -30,6 +31,7 @@ import { RsvpComponent } from './pages/rsvp/rsvp.component';
     GiftsComponent,
     GiftElementComponent,
     RsvpComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,

@@ -15,7 +15,7 @@
 	"bookingInformation": "Reserva do Hotel",
 	"bookingAtCastelBrandoTitle": "Reservas CastelBrando",
 	"bookingAtCastelBrandoText": "O local onde será realizado o casamento também é um hotel que disponibiliza um número limitado de quartos a uma tarifa reduzida para os nossos convidados. Os quartos serão disponibilizados tanto no castelo quanto em uma dependência em frente ao teleférico que dá acesso direto ao local do casamento. Os hóspedes da dependência terão o Café da manhã servido no castelo, assim como acesso a todas as áreas em comum.",
-	"bookingAtCastelBrandoText1" : "Se desejar reservar no Hotel Castelbrando à preços reduzidos, por favor contate o hotel clicando no botão abaixo ou mandando um e-mail diretamente ao hotel em <a style=\"color: blue;\" href=\"hotel@castelbrando.it\">hotel@castelbrando.it.</a>. <br><br><i>Não será possível reservar o Hotel CastelBrando pelo site da Booking ou pelo site do hotel, visto que todos os quartos foram reservados para o casamento. <br>A reserva do hotel Castelbrando somente poderá ser feita por e-mail em inglês ou em italiano, no hotel eles não falam português. Para facilitar, colocamos abaixo um exemplo de e-mail a ser enviado para o hotel já escrito em inglês, sendo assim basta selecionar a opção de quarto e dias desejados.</i><br><br>Para acessar às tarifas reduzidas, no e-mail com o pedido de solicitação da reserva, é necessário informar ao hotel que os titulares do quarto são convidados do nosso casamento. Para confirmação do quarto, o hotel irá solicitar um número de cartão de crédito como garantia. <br><b>Tradução em português da sugestão de e-mail abaixo:</b>( O hotel não aceita e-mail em português. Esta é apenas uma tradução do exemplo abaixo para facilitar aos que não falam inglês ou italiano)<br><br>",
+	"bookingAtCastelBrandoText1" : "Outros Hotéis e pousadas estão disponíveis próximo ao castelo na cidade de Cison di Valmarino. Nesse caso, aconselhamos a reserva através do site Booking.com",
 	"bookingAtCastelBrandoText14": "<b>Exemplo de email para a solicitação de  tarifa descontada.<b>",
 	"emailBodyPT1":"<b>Para:</b> <a style=\"color: blue;\" href=\"hotel@castelbrando.it\">hotel@castelbrando.it.</a><br><b>Assunto</b>:Booking request (Nome Sobrenome)<br><br>-Prenotazione camera matrimonio Maia Zanette 30lug2022 con accesso a tariffa agevolata-<br><br>Dear CastelBrando Hotel,<br>I would like to make a reservation, bellow all the informations.<br><b>Room 1:</b> ( Escolha o tipo de quarto entre: single/double classic/double superior/suite)<br><b>In name of:</b> ( Escreva aqui o nome da pessoa que vai ficar no quarto. Basta uma)<br><b>For the dates:</b> ( Coloque aqui os dias desejados para a reserva: the night of 29th and/ 30th July 2022 )<br><b>Location:</b> castle/dependance ( escolha se a reserva será no castelo ou na dependência)<br><br>Name Surname (Nome e sobrenome)<br>Thank you<br>Regards<br>",
 	"bookingButton": "Reserve por email",
@@ -24,13 +24,15 @@
 	"bookingAtCastelBrandoText3": "Tipos de quartos",
 	"bookingAtCastelBrandoText4": "Preços para a noite do dia 29/07/2022",
 	"bookingAtCastelBrandoText5": "Preços para a noite do dia  30/07/2022",
-	"bookingAtCastelBrandoText6": "Quarto individual",
+	"bookingAtCastelBrandoText6": "Camera singola (Quarto individual)",
 	"pluralEuro": "s",
-	"bookingAtCastelBrandoText7": "<a style=\"color: blue;\" target=\"_blank\" href=\"https:\\\\www.castelbrando.it\\camere-suites\\camera-classica\">Quarto de Casal</a>",
-	"bookingAtCastelBrandoText8": "<a style=\"color: blue;\" target=\"_blank\" href=\"https:\\\\www.castelbrando.it\\camere-suites\\camera-superior\">Quarto de Casal Superior</a>",
+
+
+	"bookingAtCastelBrandoText7": "<a style=\"color: blue;\" target=\"_blank\" href=\"https:\\\\www.castelbrando.it\\camere-suites\\camera-classica\">Camera doppia (Quarto de Casal)</a>",
+	"bookingAtCastelBrandoText8": "<a style=\"color: blue;\" target=\"_blank\" href=\"https:\\\\www.castelbrando.it\\camere-suites\\camera-superior\">Camera doppia Superior (Quarto de Casal Superior)</a>",
 	"bookingAtCastelBrandoText9": "<a style=\"color: blue;\" target=\"_blank\" href=\"https:\\\\www.castelbrando.it\\camere-suites\\junior-suite\">Junior Suite Prestige</a>",
 	"bookingAtCastelBrandoText10": "<a style=\"color: blue;\" target=\"_blank\" href=\"https:\\\\www.castelbrando.it\\camere-suites\\royal-suite\">Royal Suite</a>",  
-	"bookingAtCastelBrandoText12": "<a style=\"color: blue;\" target=\"_blank\" href=\"https:\\\\www.castelbrando.it\\camere-suites\\camera-cottage\">Quarto de Casal</a>",
+	"bookingAtCastelBrandoText12": "<a style=\"color: blue;\" target=\"_blank\" href=\"https:\\\\www.castelbrando.it\\camere-suites\\camera-cottage\">Camera doppia (Quarto de Casal)</a>",
 	"bookingAtCastelBrandoText11": " Dependência CastelBrando, café da manhã incluso (No castelo)",
 	"bookingOtherOptions": "Outras opções",
 	"bookingOtherOptionsText1": "Outros Hotéis e Bed and breakfast (pousadas) estão disponíveis próximo ao castelo na cidade de Cison di Valmarino, abaixo alguns dos hotéis mais próximos do local do evento. Nesse caso, aconselhamos a reserva através do site <a style=\"color: blue;\" href=\"https:\\\\www.booking.com\">Booking.com</a>",
@@ -38,29 +40,26 @@
 	"min5Car": "5 minutos de carro",
 
 
-	"ourStory": "Nova data",
+	"ourStory": "Sejam bem vindos!",
 	"rsvp": "RSVP",
-	"confirmaation": "Confirmation",
+	"confirmation": "Confirmação de Presença",
 	"gifts": "Presente de Casamento",
-	"giftsText1": "E eles viveram felizes para sempre",
-	"giftText2": "Sua presença é o nosso melhor presente mas,se você quiser nos presentear com algo, uma contribuiçâo financeira para a nossa lua de mel nos deixará muito felizes! Porém, caso você prefira nos presentear de outra forma, sinta se livre para nos surpreender de uma forma especia!",
-	"giftText6": "Onde vocês gostariam de nos ver na nossa lua de mel?",
-	"giftText3": "Caso você escolha a opçâo da contribuiçâo para a lua de mel, disponibilizamos abaixo algumas opçôes para facilitar.",
-	"giftText4": "Para Europeus e Ingleses, a contribuiçâo poderá ser feita tanto por cartâo de credito/debito quanto por transferência (deposito/bonifico) bancária, como de sua preferência.<br><br><ul><li>Para contribuiçâo por <b> Cartâo de credito/debito (através do PayPal)</b>: clique aqui <a style=\"color: blue;\" href=\"https://www.paypal.com/pools/c/8uGb6MrYq7/guest/amount\" target=\"_blank\">link</a>, e siga as instruçôes.</li><br><li> Para <b>Tranferência Bancária (deposito/bonifico)</b> você pode utilizar esta conta: <ul><li> Titular: Zanette Davide Saraiva Azevedo Maia Ana Carla</li><li>IBAN: IT53K0339512900052123684630</li><li>SWIFT: ITTPIT2MXXX</li><li>BANK: BANCA INTERPROVINCIALE SOCIETA' PER AZIONI</li></ul> </li></ul>",
-	"giftText5": "Para os braileiros, a contribuiçâo poderá ser feita por transferencia bancária ou Pix.<br>",
-	"giftText7": "Muito beeem! É exatamente onde queremos ir",
-	"giftText8": "... Eu tenho certeza que existem destinos melhores...",
-
+	"giftsText1": "E vissero felici anche dopo",
 	
 
-	"homePageText1": "Como situação atual da pandemia ainda não nos possibilita  de aver uma situação sigura e confortavel para aproveitar o nosso dia com nossos queridos familiares e amigos, pensamos que seria mais inteligente em postergar o casamento. Seremos felizes em receber-los na nova dota do nosso casamento no dia <b> 30 de Julho de 2022 </b>.",
-	"homePageText2": "Estamos ansiosos para comemorarmos essa data especial com todos vocês, o que nos fará muito felizes.",
+	"homePageText1": "<b>Queridos familiares e amigos, estamos honrados por estarem aqui!</b><br><br>Bem-vindos ao verão europeu, bem-vindos à Italia, bem-vindos ao nosso amor.<br><br>Criamos esse site para compartilhar com vocês os detalhes da organização do nosso casamento. Por isso, além de um pouquinho da nossa história, aqui vocês também encontrarão dicas de como chegar, hospedagem, trajes, presentes etc.<br><br><b>Ah, é importante confirmar sua presença. Contamos com sua ajuda preenchendo os dados necessários no campo 'Confirmação de Presença'<br><br>(Por favor, lembrem-se disso! ❤)</b><br><br>Estamos muito felizes e contamos com a presença de todos no nosso grande dia!",
+	"homePageText2": "Para o amor não existe fronteiras, basta querer, acreditar e ter muita determinação.<br><br>Nos conhecemos em Londres em Agosto de 2014, éramos colegas de classe em um curso de inglês para estrangeiros.<br><br>Mas o que faziam dois jovens de vinte anos em Londres? Queriamos aproveitar a vida e viver novas experiencias obviamente. Ana Carla foi para Londres para passar um ano, Davide para passar um mês.  O que nenhum dos dois sabiam è que aquele mês de agosto mudaria todo o rumo da vida deles ...<br><br>Nos conhecemos na primeria semana de aula. Como algum de vocês devem saber, em um curso de linguas, os estudantes são incentivados a conversar com a pessoa do lado. Davide muito esperto, chegava sempre cedo e deixava o seu estojo reservando a cadeira do lado dele. Ana Carla, como sempre atrasada, era a ultima a chegar na sala de aula e por \"a caso\" achava somente uma cadeira vazia, ao lado de Davide...<br><br>Nossa história começou assim e continuou em duas cidades a 9000 Km de distância…<br><br>Esperamos vê-los em nosso casamento para continuar e contarmos mais uma etapa da nossa vida!",
 	"homePageText3": "<b>Castelbrando</b><br><a style=\"color: blue;\" href=\"https://goo.gl/maps/5XwEH6iaYb5eAk8E6\" target=\"_blank\">Location Castelbrando</a>",
 	"homePageText4": "Do not miss it!",
 	"july": "JULHO",
-	"newDate": "NEW DATE",
+	"newDate": "",
 
+	"rsvpText1": "O local onde será realizado o casamento também é um hotel que disponibiliza um número limitado de quartos a um preço especial para os nossos convidados.<br><br>Existem quartos disponíveis tanto no castelo, quanto em uma <a href=\"https://anacarlaedavide.com/assets/images/CastelBrandoAndDependance.png\">dependência em frente ao teleférico</a>.<br><br>Vale ressaltar que a opção da dependência também possui acesso direto ao local do casamento, café da manhã e acesso a todas as áreas em comum do castelo.<br><br>Para reservar o Hotel Castelbrando a um preço especial, por favor contate o hotel enviando um e-mail:  <a target:\"_blank\" href=\"\" style=\"color: #E45F74 !important;\">hotel@castelbrando.it</a><br><br>No E-mail é necessário informar ao hotel que os titulares do quarto são convidados do nosso casamento.<br><br>IMPORTANTE:<br>1- O hotel não aceita e-mail em português. Somente em inglês ou em italiano<br>2- Para a confirmação do quarto o hotel solicitará um número de cartão de crédito como garantia.<br><br>Estamos à disposição para qualquer informação!",	
+	"homePage": "Home page",
+	"homeInfo": "Ana Carla & Davide",
+	"gliSposi": "Os Noivos",
+	"ceremonia": "Cerimônia",
+	"comeArrivare": "Como Chegar",
+	"aeroporto": "Os Aeroportos mais proximos do local do casamento sao:"
 
-	"rsvpText1": "",
-	"homePage": "Home page"
 }

@@ -73,8 +73,6 @@ b{ font-weight: 500; }
 
 img{ width: 100%; }
 
-li{ list-style: none; display: inline-block; }
-
 span{ display: inline-block; }
 
 button{ outline: 0; border: 0; background: none; cursor: pointer; }
@@ -259,7 +257,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .floatingMenu{z-index: 5; position: fixed; top: 0%; left:0%; width:100%;}
-.menuColor{background-color: #E55D73; border-radius: 0px 0px 10px 10px; margin-right: 1px; margin-left: 1px;}
+.menuColor{background-color: white; margin-right: 1px; margin-left: 1px; height: 135px;}
 .imagemiddle{ position: absolute; width: 100%; top: 40%; text-align: center; text-shadow: 1px 2px black;}
 .imagemid{ position: absolute; width: 100%; top: 80%; text-align: center; text-shadow: 1px 2px black;}
 .imagetopright{position: absolute; width: 30px; top: 1%; right: 5%;}
@@ -269,6 +267,11 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .textContentHomePage{ font-family: 'Philosopher'; color:black; font-style: italic;}
 .text-align-center{text-align: center;}
 .alternativeSaveTheDate {display: none;}
+.container-fluid {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
 
 
 @media screen and (max-width: 300px) {

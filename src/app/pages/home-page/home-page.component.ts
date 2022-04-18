@@ -18,8 +18,8 @@ export class HomePageComponent {
 
 
   constructor(public dbService: DbService, public translate: TranslateService, private readonly router: Router) {
-    translate.addLangs(['en', 'it', 'pt']);
-    translate.setDefaultLang('en');
+    translate.addLangs(['it', 'pt']);
+    translate.setDefaultLang('pt');
   }
 
   switchLang(lang: string) {

@@ -1,64 +1,18 @@
-<!-- INIZIO MENU -->
-<div class="floatingMenu">
-  <div class="container-fluid">
-    <div class="row menuColor">
-      <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-        <button type="button" class="submit-btn" (click)="goToBookingInformation()">
-          {{'bookingInformation' | translate }}
-        </button>
-      </div>
-      <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-        <button style="display: none;" type="button" class="submit-btn" (click)="goToRsvp()">
-          {{'rsvp' | translate }}
-        </button>
-      </div>
-      <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-        <button style="display: none;" type="button" class="submit-btn" (click)="goToConfirmation()">
-          {{'confirmation' | translate }}
-        </button>
-      </div>
-      <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-        <button style="display: none;" type="button" class="submit-btn" (click)="goToGifts()">
-          {{'gifts' | translate }}
-        </button>
-      </div>
-      <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-        <button style="display: none;" type="button" class="submit-btn" (click)="goToDBData()">
-          DB DATA
-        </button>
-      </div>
-      <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2" style="text-align: right;">
-        <button type="button" (click)="switchLang('en')"
-          style="max-width: 30px; margin-right: 10px; margin-top: 10px;"><img
-            src="../assets/flags/United-Kingdom-icon.png"></button>
-        <button type="button" (click)="switchLang('it')"
-          style="max-width: 30px; margin-right: 10px; margin-top: 10px;"><img
-            src="../assets/flags/Italy-Flag-icon.png"></button>
-        <button type="button" (click)="switchLang('pt')"
-          style="max-width: 30px; margin-right: 10px; margin-top: 10px;"><img
-            src="../assets/flags/Brazil-Flag-icon.png"></button>
-      </div>
-
-    </div>
-  </div>
-</div>
-<!-- FINE MENU -->
-
 <div class="container-fluid">
 
 
   <div class="main-slider story-area">
     <!-- INIZIO CONTENT -->
     <section class="section">
-      <div class="row" style="overflow: hidden;">
+      <div class="row" style="overflow: hidden; padding-top: 135px;">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <img src="../assets/images/slider-1-1600x900.jpg" class="img-fluid borderRadiusImg" alt="Responsive image">
+          <img src="../assets/images/Home1.jpg" class="img-fluid" alt="Responsive image">
           <div class="imagemid">
             <div class="display-table center-text">
               <div class="display-table-cell">
                 <div class="slider-content">
                   <i class="small-icon icon icon-tie"></i>
-                  <h5 class="date"><b>{{'newDate' | translate }}</b> 30 {{'july' | translate }} 2022</h5>
+                  <h5 class="date"><b>{{'newDate' | translate }}</b> 30 {{'july' | translate }} 2022 - 16:00</h5>
                   <h1 class="title">Ana Carla <i class="icon icon-heart"></i> Davide</h1>
                 </div>
               </div>
@@ -66,136 +20,215 @@
           </div>
         </div>
       </div>
+
+
+      <!-- benvenuti-->
       <hr>
       <div class="row">
-        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 borderRightImg">
-          <img src="../assets/images/HomePicture1.JPG" class="img-fluid borderRadiusImg" alt="HP1">
-        </div>
-        <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 text-align-center">
-          <div class="heading">
-            <h2 class="title" style="color: black;"><span innerHTML="{{'ourStory' | translate}}"></span></h2>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <div class="heading text-align-center">
+            <h2 class="title" style="color: #868686;"><span innerHTML="{{'ourStory' | translate}}"></span></h2>
             <span class="heading-bottom"><i class="icon icon-star"></i></span>
           </div>
-          <h4 class="textContentHomePage"><span innerHTML="{{'homePageText1' | translate}}"></span></h4>
+          <h4 class="textContentHomePage" style="color: #868686;"><span
+              innerHTML="{{'homePageText1' | translate}}"></span></h4>
         </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
       </div>
       <hr>
-      <br>
+      <img src="../assets/images/Home2.jpg" class="img-fluid" alt="Responsive image">
+
+      <!-- gli sposi -->
+      <hr>
+      <div class="row">
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <div class="heading text-align-center">
+            <section id="gliSposi"></section>
+            <h2 class="title" style="color: #868686;"><span innerHTML="{{'gliSposi' | translate}}"></span></h2>
+            <span class="heading-bottom"><i class="icon icon-star"></i></span>
+          </div>
+          <h4 class="textContentHomePage" style="color: #868686;"><span
+              innerHTML="{{'homePageText2' | translate}}"></span></h4>
+        </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+      </div>
+
       <br>
       <div class="row">
-        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 borderRightImg text-align-center">
-          <div class="textmiddle">
-            <h4 class="textContentHomePage"><span innerHTML="{{'homePageText2' | translate}}"></span></h4>
-          </div>
-        </div>
-        <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
-          <img src="../assets/images/HomePicture2.jpg" class="img-fluid borderRadiusImg" alt="HP2">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 center-text">
+          <iframe width="700" height="450" src="https://www.youtube.com/embed/DjDbcdsKYqE" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
       </div>
-    </section>
-    <hr>
-    <section class="section counter-area">
+
+      <!-- Ceremonia -->
+      <hr>
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-align-center">
-          <img src="../assets/images/counter-1-1600x600.jpg" class="img-fluid borderRadiusImg" alt="Clock">
-          <div class="imagemiddle">
-            <div class="heading">
-              <h2 class="title"><span innerHTML="{{'homePageText4' | translate}}"></span></h2>
-              <span class="heading-bottom"><i class="color-white icon icon-star"></i></span>
-              <h2 class="title">30 {{'july' | translate }} 2022</h2>
-            </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <div class="heading text-align-center">
+            <section id="cerimonia"></section>
+            <h2 class="title" style="color: #868686;"><span innerHTML="{{'ceremonia' | translate}}"></span></h2>
+            <span class="heading-bottom"><i class="icon icon-star"></i></span>
+          </div>
+          <img src="../assets/images/Castelbrando.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+      </div>
+      <br>
+      <!-- Booking info -->
+      <div class="row">
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <h4 class="textContentHomePage" style="color: #868686;"><span innerHTML="{{'rsvpText1' | translate}}"></span>
+          </h4>
+        </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <table class="table table-striped">
+            <tr>
+              <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText2' | translate}}"></span></th>
+            </tr>
+            <tr>
+              <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText3' | translate}}"></span></th>
+              <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText4' | translate}}"></span></th>
+              <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText5' | translate}}"></span></th>
+            </tr>
+            <tr>
+              <td><span innerHTML="{{'bookingAtCastelBrandoText6' | translate}}"></span></td>
+              <td>92 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+              <td>112 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+            </tr>
+            <tr>
+              <td><span innerHTML="{{'bookingAtCastelBrandoText7' | translate}}"></span></td>
+              <td>128 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+              <td>142 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+            </tr>
+            <tr>
+              <td><span innerHTML="{{'bookingAtCastelBrandoText8' | translate}}"></span></td>
+              <td>142 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+              <td>152 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+            </tr>
+            <tr>
+              <td><span innerHTML="{{'bookingAtCastelBrandoText9' | translate}}"></span></td>
+              <td>212 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+              <td>262 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+            </tr>
+            <tr>
+              <td><span innerHTML="{{'bookingAtCastelBrandoText10' | translate}}"></span></td>
+              <td>282 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+              <td>302 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+            </tr>
+            <tr>
+              <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText11' | translate}}"></span></th>
+            </tr>
+            <tr>
+              <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText3' | translate}}"></span></th>
+              <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText4' | translate}}"></span></th>
+              <th scope="col"><span innerHTML="{{'bookingAtCastelBrandoText5' | translate}}"></span></th>
+            </tr>
+            <tr>
+              <td><span innerHTML="{{'bookingAtCastelBrandoText6' | translate}}"></span></td>
+              <td>90 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+              <td>102 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+            </tr>
+            <tr>
+              <td><span innerHTML="{{'bookingAtCastelBrandoText12' | translate}}"></span></td>
+              <td>110 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+              <td>122 euro<span innerHTML="{{'pluralEuro' | translate}}"></span></td>
+            </tr>
+          </table>
+
+
+          <h4 class="textContentHomePage" style="color: #868686;"><span
+              innerHTML="{{'bookingAtCastelBrandoText1' | translate}}"></span></h4>
+          <br><br>
+          <h4 class="textContentHomePage" style="color: #868686;"> <span
+              innerHTML="{{'bookingAtCastelBrandoText14' | translate}}"></span></h4>
+          <div class="jumbotron">
+            <span style="color: black;" innerHTML="{{'emailBodyPT1' | translate}}"></span>
           </div>
         </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
       </div>
+      <!-- end booking info-->
+
+      <hr>
+      <div class="row">
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <div class="heading text-align-center">
+            <section id="comeArrivare"></section>
+            <h2 class="title" style="color: #868686;"><span innerHTML="{{'comeArrivare' | translate}}"></span></h2>
+            <span class="heading-bottom"><i class="icon icon-star"></i></span>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2773.11577860715!2d12.133813316232589!3d45.9689470076409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477947d2bc4759d1%3A0x7ac8bd49b1d8a36b!2sCastelBrando!5e0!3m2!1sen!2sit!4v1599916180323!5m2!1sen!2sit"
+            width="100%" height="375px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+          <br><br>
+          <h4 class="textContentHomePage" style="color: #868686;"><span innerHTML="{{'aeroporto' | translate}}"></span>
+          </h4>
+          <ul style="color: #868686; margin-left: 40px;">
+            <li>Aeroporto de Treviso TSF ( 44 KM)</li>
+            <li>Aeroporto di Veneza Marco Polo VCE ( 68 KM)</li>
+            <li>Aeroporto di Verona ( 164 KM)</li>
+            <li>Aeroporto di Bologna (231 KM)</li>
+            <li>Aeroporto di Milao Bergamo ( 268 KM)</li>
+            <li>Aeroporto Milao Linate (299 KM)</li>
+            <li>Aeroporto di Milao Malpensa MXP ( 351 KM)</li>
+          </ul>
+
+        </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+      </div>
+
+
+      <hr>
+      <div class="row">
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <div class="heading text-align-center">
+            <section id="conferma"></section>
+            <h2 class="title" style="color: #868686;"><span innerHTML="{{'confirmation' | translate}}"></span></h2>
+            <span class="heading-bottom"><i class="icon icon-star"></i></span>
+          </div>
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfShhGiqET49XmByKykpUnxriI5G4oxBE6Bi6u-PtTb5Mx8GA/viewform?embedded=true"
+            width="100%" height="958" frameborder="0" marginheight="0" marginwidth="0">Caricamento…</iframe>
+        </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+      </div>
+
+      <hr>
+      <!-- <div class="row">
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <div class="heading text-align-center">
+            <section id="gifts"></section>
+            <h2 class="title" style="color: #868686;"><span innerHTML="{{'gifts' | translate}}"></span></h2>
+            <span class="heading-bottom"><i class="icon icon-star"></i></span>
+          </div>
+          <h4 class="textContentHomePage" style="color: #868686;"><span
+            innerHTML="{{'giftsText1' | translate}}"></span></h4>
+        </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+      </div>
+    -->
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <!-- fine section-->
     </section>
-    <hr>
-    <div class="row">
-      <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 borderRightImg">
-        <img src="../assets/images/HomePicture3.jpg" class="img-fluid borderRadiusImg" alt="HP1">
-      </div>
-      <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-align-center">
-        <div class="textmiddle">
-          <h4 class="textContentHomePage"><span innerHTML="{{'homePageText3' | translate}}"></span></h4>
-        </div>
-      </div>
-    </div>
-    <hr>
-    <div style="display: none;">
-      <section class="section w-details-area center-text">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-10">
-
-              <div class="heading">
-                <h2 class="title" style="color: black;">Wedding Details</h2>
-                <span class="heading-bottom"><i class="icon icon-star"></i></span>
-              </div>
-
-              <div class="wedding-details margin-bottom">
-
-                <div class="w-detail right">
-                  <i class="icon icon-ciurclke"></i>
-                  <h4 class="title" style="color: black;">CEREMONY</h4>
-                  <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
-                </div>
-
-                <div class="w-detail left">
-                  <i class="icon icon-wine-glass"></i>
-                  <h4 class="title" style="color: black;">TOAST & DINNER</h4>
-                  <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
-                </div>
-
-                <div class="w-detail right">
-                  <i class="icon icon-cake"></i>
-                  <h4 class="title" style="color: black;">WEDDING CAKE</h4>
-                  <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
-                </div>
-
-                <div class="w-detail left">
-                  <i class="icon icon-camera"></i>
-                  <h4 class="title" style="color: black;">PHOTOGRAPHY</h4>
-                  <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
   </div>
-
-
-
-  <!-- FINE CONTENT -->
-
-  <footer>
-    <div class="alternativeSaveTheDate">
-      <div class="display-table center-text">
-        <div class="display-table-cell">
-          <div class="slider-content">
-            <i class="small-icon icon icon-tie"></i>
-            <h5 class="date">30 {{'july' | translate }} 2022</h5>
-            <h3 class="pre-title">Save The Date</h3>
-            <h1 class="title">Ana Carla <i class="icon icon-heart"></i> Davide</h1>
-          </div><!-- slider-content-->
-        </div>
-        <!--display-table-cell-->
-      </div><!-- display-table-->
-    </div>
-
-    <div class="center-text">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <p class="copyright">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;
-            <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with
-            <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
 </div>

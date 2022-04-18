@@ -1,0 +1,133 @@
+
+      <!-- vecchio-->
+      <div class="row">
+        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 borderRightImg">
+          <img src="../assets/images/HomePicture1.JPG" class="img-fluid borderRadiusImg" alt="HP1">
+        </div>
+        <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 text-align-center">
+          <div class="heading">
+            <h2 class="title" style="color: black;"><span innerHTML="{{'ourStory' | translate}}"></span></h2>
+            <span class="heading-bottom"><i class="icon icon-star"></i></span>
+          </div>
+          <h4 class="textContentHomePage"><span innerHTML="{{'homePageText1' | translate}}"></span></h4>
+        </div>
+      </div>
+      <hr>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 borderRightImg text-align-center">
+          <div class="textmiddle">
+            <h4 class="textContentHomePage"><span innerHTML="{{'homePageText2' | translate}}"></span></h4>
+          </div>
+        </div>
+        <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+          <img src="../assets/images/HomePicture2.jpg" class="img-fluid borderRadiusImg" alt="HP2">
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class="section counter-area">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-align-center">
+          <img src="../assets/images/counter-1-1600x600.jpg" class="img-fluid borderRadiusImg" alt="Clock">
+          <div class="imagemiddle">
+            <div class="heading">
+              <h2 class="title"><span innerHTML="{{'homePageText4' | translate}}"></span></h2>
+              <span class="heading-bottom"><i class="color-white icon icon-star"></i></span>
+              <h2 class="title">30 {{'july' | translate }} 2022</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <div class="row">
+      <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 borderRightImg">
+        <img src="../assets/images/HomePicture3.jpg" class="img-fluid borderRadiusImg" alt="HP1">
+      </div>
+      <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-align-center">
+        <div class="textmiddle">
+          <h4 class="textContentHomePage"><span innerHTML="{{'homePageText3' | translate}}"></span></h4>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div style="display: none;">
+      <section class="section w-details-area center-text">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+
+              <div class="heading">
+                <h2 class="title" style="color: black;">Wedding Details</h2>
+                <span class="heading-bottom"><i class="icon icon-star"></i></span>
+              </div>
+
+              <div class="wedding-details margin-bottom">
+
+                <div class="w-detail right">
+                  <i class="icon icon-ciurclke"></i>
+                  <h4 class="title" style="color: black;">CEREMONY</h4>
+                  <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
+                </div>
+
+                <div class="w-detail left">
+                  <i class="icon icon-wine-glass"></i>
+                  <h4 class="title" style="color: black;">TOAST & DINNER</h4>
+                  <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
+                </div>
+
+                <div class="w-detail right">
+                  <i class="icon icon-cake"></i>
+                  <h4 class="title" style="color: black;">WEDDING CAKE</h4>
+                  <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
+                </div>
+
+                <div class="w-detail left">
+                  <i class="icon icon-camera"></i>
+                  <h4 class="title" style="color: black;">PHOTOGRAPHY</h4>
+                  <p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+
+  <!-- FINE CONTENT -->
+
+  <footer>
+    <div class="alternativeSaveTheDate">
+      <div class="display-table center-text">
+        <div class="display-table-cell">
+          <div class="slider-content">
+            <i class="small-icon icon icon-tie"></i>
+            <h5 class="date">30 {{'july' | translate }} 2022</h5>
+            <h3 class="pre-title">Save The Date</h3>
+            <h1 class="title">Ana Carla <i class="icon icon-heart"></i> Davide</h1>
+          </div><!-- slider-content-->
+        </div>
+        <!--display-table-cell-->
+      </div><!-- display-table-->
+    </div>
+
+    <div class="center-text">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <p class="copyright">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with
+            <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
