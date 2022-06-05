@@ -42,11 +42,19 @@
 	"rsvp": "RSVP",
 	"confirmation": "Conferma di partecipazione",
 	"gifts": "Regalo di matrimonio",
-	"giftsText1": "E vissero felici anche dopo",
+	"giftsText1": "Per il nostro matrimonio il regalo più bello è la vostra presenza, però se volete aiutarci a realizzare il nostro progetto casa una contibuzione tramite bonifico o busta sarà molto gradita.",
+	"euroText1": "<b>Bonifico in Euro</b>",
+	"euroText2": "Banca:",
+	"euroText3": "Beneficiario:",
+	"euroText4": "IBAN:",
+	"euroText5": "BIC:",
 
-	
+	"realText1": "<b>Pix em Reais</b>",
+	"contantiText1": "<b>Busta in contanti</b>",
+	"contantiText2": "Per regali in busta in contanti, potete consegnare la busta prima o durante la festa agli sposi, alla mamma dello sposo (Michela Trentin) o alla sorella della sposa (Camila Maia)",
 
-	"homePageText1": "Cari famiglie e amici, siamo felici di poter celebrare con voi il giorno del nostro matrimonio!<br><br>Abbiamo creato questo sito per condividere con voi un po' della nostra storia e i dettagli dell'organizzazione dell'evento. Qui troverete informazioni sulla location,su come arrivare, alloggio, vestiti, regali, ecc.<br><br>Per poter organizzare al meglio il matrimonio, per noi è veramente importante la conferma della presenza. Contiamo sul tuo aiuto, conferma la tua partecipazione attraverso la \"Conferma di partecipazione\".<br><br>(Per favore, ricordalo! ❤)<br><br>Siamo molto felici e non vediamo l'ora di vedervi tutti nel nostro grande giorno!",
+
+	"homePageText1": "Cari famiglie e amici, siamo felici di poter celebrare con voi il giorno del nostro matrimonio!<br><br>Abbiamo creato questo sito per condividere con voi un po' della nostra storia e i dettagli dell'organizzazione dell'evento. Qui troverete informazioni sulla location,su come arrivare, alloggio ecc.<br><br>Per poter organizzare al meglio il matrimonio, per noi è veramente importante la conferma della presenza. Contiamo sul tuo aiuto, conferma la tua partecipazione attraverso la \"Conferma di partecipazione\".<br><br>(Per favore, ricordalo! ❤)<br><br>Siamo molto felici e non vediamo l'ora di vedervi tutti nel nostro grande giorno!",
 	"homePageText2": "Per l'amore non ci sono confini, basta volerlo, crederci e avere tanta determinazione.<br><br>Ci siamo conosciuti a Londra nell'Agosto 2014, eravamo compagni di classe in un corso di inglese.<br><br>Cosa fanno due giovani ventenni a Londra? Vogliono divertirsi e vivere esperienze nuove ovviamente! Ana Carla è andata a Londra per starci un anno, Davide per un mese. Nessuno dei due sapeva che quel mese di agosto avrebbe cambiato tutti i piani della loro vita...<br><br>Come qualcuno di voi saprà, nei corsi di lingua, gli studenti sono incentivati a conversare con chi si siede in fianco. Davide, molto scaltro, arrivava sempre per primo e lasciava l'astuccio delle penne sul banco in fianco, in modo che nessuno si potesse sedere. Ana Carla, ritardataria seriale, arrivava sempre per ultima e 'per forza di cose' trovava una sola sedia libera, quella in fianco a Davide...<br><br>La nostra storia è iniziata così, ed è proseguita in due città a 9000km di distanza... Speriamo di vedervi al nostro matrimonio per raccontarvi un'altra tappa!",
 	"homePageText3": "<b>Castelbrando</b><br><a style=\"color: blue;\" href=\"https://goo.gl/maps/5XwEH6iaYb5eAk8E6\" target=\"_blank\">Location Castelbrando</a>",
 	"homePageText4": "Do not miss it!",
@@ -61,6 +69,8 @@
 	"ceremonia": "Cerimonia",
 	"comeArrivare": "Come arrivare",
 	"aeroporto": "Gli aeroporti più vicini:"
+
+	
 
 
 

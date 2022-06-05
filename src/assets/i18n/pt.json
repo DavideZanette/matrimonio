@@ -44,7 +44,17 @@
 	"rsvp": "RSVP",
 	"confirmation": "Confirmação de Presença",
 	"gifts": "Presente de Casamento",
-	"giftsText1": "E vissero felici anche dopo",
+	"giftsText1": "Estamos muito felizes em dividir esse momento especial com vocês. A sua presença é o nosso melhor presente, mas caso queiram nos ajudar na nossa casa nova, uma contribuição por transferência bancária ou em dinheiro será muito bem-vinda.",
+	"euroText1": "<b>Deposito em Euro</b>",
+	"euroText2": "Banco:",
+	"euroText3": "Beneficiário:",
+	"euroText4": "IBAN:",
+	"euroText5": "BIC:",
+
+	"realText1": "<b>Pix em Reais</b>",
+	"contantiText1": "<b>Envelope com dinheiro</b>",
+	"contantiText2": "Para presentes em dinheiro, gentilmente pedimos que sejam entregues antes ou durante a festa aos noivos, para a mãe do noivo (Michela Trentin) ou para a irmã da noiva (Camila Maia)",
+
 	
 
 	"homePageText1": "<b>Queridos familiares e amigos, estamos honrados por estarem aqui!</b><br><br>Bem-vindos ao verão europeu, bem-vindos à Italia, bem-vindos ao nosso amor.<br><br>Criamos esse site para compartilhar com vocês os detalhes da organização do nosso casamento. Por isso, além de um pouquinho da nossa história, aqui vocês também encontrarão dicas de como chegar, hospedagem, trajes, presentes etc.<br><br><b>Ah, é importante confirmar sua presença. Contamos com sua ajuda preenchendo os dados necessários no campo 'Confirmação de Presença'<br><br>(Por favor, lembrem-se disso! ❤)</b><br><br>Estamos muito felizes e contamos com a presença de todos no nosso grande dia!",
@@ -61,5 +71,7 @@
 	"ceremonia": "Cerimônia",
 	"comeArrivare": "Como Chegar",
 	"aeroporto": "Os Aeroportos mais proximos do local do casamento sao:"
+
+	
 
 }

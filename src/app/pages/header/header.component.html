@@ -1,40 +1,69 @@
 <!-- INIZIO MENU -->
 <div class="floatingMenu">
-    <div class="container-fluid">
-      <div class="row menuColor">
-        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-          <div style="margin-top: 30px; margin-left:40px; width: fit-content;">
-            <h2 class="title" style="color: #868686;"><span innerHTML="{{'homeInfo' | translate}}"></span></h2>
-            <div style="color: #868686; float: right">
-              <h5>30 {{'july' | translate }} 2022 - 16:00</h5>
+  <div class="container-fluid">
+    <div class="row menuColor">
+
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+        <div style="margin-top: 30px; margin-left:40px; width: fit-content;">
+          <h2 class="title" style="color: #868686;"><span innerHTML="{{'homeInfo' | translate}}"></span></h2>
+
+          <div class="row">
+            <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+              <div style="color: #868686; padding-top: 10px;">
+                <h5>30 {{'july' | translate }} 2022 - 16:00</h5>
+              </div>
+            </div>
+            <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3" style="display: inline-flex;">
+              <button type="button" (click)="switchLang('it')"
+                style="max-width: 30px; margin-right: 10px;"><img
+                  src="../assets/flags/Italy-Flag-icon.png"></button>
+              <button type="button" (click)="switchLang('pt')"
+                style="max-width: 30px;"><img
+                  src="../assets/flags/Brazil-Flag-icon.png"></button>
             </div>
           </div>
-  
         </div>
-        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" style="display: flex; flex-direction: row;">
-          <button style="margin-right: 25px;" onclick="document.getElementById('gliSposi').scrollIntoView()"> <h3 class="title" style="color: #868686;"><span innerHTML="{{'gliSposi' | translate}}"></span></h3></button>
-          <button style="margin-right: 25px;" onclick="document.getElementById('cerimonia').scrollIntoView()"> <h3 class="title" style="color: #868686;"><span innerHTML="{{'ceremonia' | translate}}"></span></h3></button>
-          <button style="margin-right: 25px;" onclick="document.getElementById('comeArrivare').scrollIntoView()"> <h3 class="title" style="color: #868686;"><span innerHTML="{{'comeArrivare' | translate}}"></span></h3></button>
-          <button style="margin-right: 25px;" onclick="document.getElementById('conferma').scrollIntoView()"> <h3 class="title" style="color: #868686;"><span innerHTML="{{'confirmation' | translate}}"></span></h3></button>
-          <button onclick="document.getElementById('gifts').scrollIntoView()"> <h3 class="title" style="color: #868686;"><span innerHTML="{{'gifts' | translate}}"></span></h3></button>   
-        </div>
-        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2" style="text-align: right; margin-top: 30px;">
-         <!-- <button type="button" (click)="switchLang('en')"
-            style="max-width: 30px; margin-right: 10px; margin-top: 10px;"><img
-              src="../assets/flags/United-Kingdom-icon.png"></button>-->
-          <button type="button" (click)="switchLang('it')"
-            style="max-width: 30px; margin-right: 10px; margin-top: 10px;"><img
-              src="../assets/flags/Italy-Flag-icon.png"></button>
-          <button type="button" (click)="switchLang('pt')"
-            style="max-width: 30px; margin-right: 10px; margin-top: 10px;"><img
-              src="../assets/flags/Brazil-Flag-icon.png"></button>
-  
-          <!-- <button type="button" class="submit-btn" (click)="goToBookingInformation()">
-            {{'bookingInformation' | translate }}
-          </button> -->
-        </div>
-  
       </div>
+
+
+      <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8" style="display: flex; flex-direction: row;">
+        <button style="margin-right: 15px;" onclick="document.getElementById('gliSposi').scrollIntoView()">
+          <p class="title" style="color: #868686;"><span innerHTML="{{'gliSposi' | translate}}"></span></p>
+        </button>
+        <button style="margin-right: 15px;" onclick="document.getElementById('cerimonia').scrollIntoView()">
+          <p class="title" style="color: #868686;"><span innerHTML="{{'ceremonia' | translate}}"></span></p>
+        </button>
+        <button style="margin-right: 15px;" onclick="document.getElementById('comeArrivare').scrollIntoView()">
+          <p class="title" style="color: #868686;"><span innerHTML="{{'comeArrivare' | translate}}"></span></p>
+        </button>
+        <button style="margin-right: 15px;" onclick="document.getElementById('conferma').scrollIntoView()">
+          <p class="title" style="color: #868686;"><span innerHTML="{{'confirmation' | translate}}"></span></p>
+        </button>
+        <button onclick="document.getElementById('gifts').scrollIntoView()">
+          <p class="title" style="color: #868686;"><span innerHTML="{{'gifts' | translate}}"></span></p>
+        </button>
+      </div>
+
+
+
+
+
+    </div>
+
+    <div class="row">
+      <div class="col-auto col-sm-auto col-md-auto col-lg-auto col-xl-auto"
+        style="text-align: right; margin-top: 30px;">
+        <!-- <button type="button" (click)="switchLang('en')"
+           style="max-width: 30px; margin-right: 10px; margin-top: 10px;"><img
+             src="../assets/flags/United-Kingdom-icon.png"></button>-->
+
+
+        <!-- <button type="button" class="submit-btn" (click)="goToBookingInformation()">
+           {{'bookingInformation' | translate }}
+         </button> -->
+      </div>
+
     </div>
   </div>
-  <!-- FINE MENU -->
+</div>
+<!-- FINE MENU -->

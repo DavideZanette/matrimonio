@@ -257,7 +257,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .floatingMenu{z-index: 5; position: fixed; top: 0%; left:0%; width:100%;}
-.menuColor{background-color: white; margin-right: 1px; margin-left: 1px; height: 135px;}
+.menuColor{background-color: white; margin-right: 1px; margin-left: 1px;}
 .imagemiddle{ position: absolute; width: 100%; top: 40%; text-align: center; text-shadow: 1px 2px black;}
 .imagemid{ position: absolute; width: 100%; top: 80%; text-align: center; text-shadow: 1px 2px black;}
 .imagetopright{position: absolute; width: 30px; top: 1%; right: 5%;}
@@ -293,6 +293,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 		display: none;
 	}
 	.alternativeSaveTheDate{display: block;}
+	
 }
 
 @media screen and (min-width: 451px) and (max-width: 500px) {
@@ -300,34 +301,40 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 		display: none;
 	}
 	.alternativeSaveTheDate{display: block;}
-
+	
 }
 @media screen and (min-width: 501px) and (max-width: 600px) {
 	.imagemid{ top: 40% !important;}
+	
 }
 
 @media screen and (min-width: 601px) and (max-width: 700px) {
 	.imagemid{ top: 50% !important;}
+	
 }
 
 @media screen and (min-width: 701px) and (max-width: 1000px) {
 	.imagemid{ top: 60% !important;}
 	.textmiddle{ position: absolute; width: 90%; top: 40%; text-align: center;}
+	
 }
 
 @media screen and (min-width: 1001px) and (max-width: 1400px) {
 	.imagemid{ top: 65% !important;}
 	.textmiddle{ position: absolute; width: 90%; top: 40%; text-align: center;}
+	
 }
 
 @media screen and (min-width: 1401px) and (max-width: 1700px) {
 	.imagemid{ top: 70% !important;}
 	.textmiddle{ position: absolute; width: 90%; top: 40%; text-align: center;}
+
 }
 
 @media screen and (min-width: 1701px) and (max-width: 2000px) {
 	.imagemid{ top: 75% !important;}
 	.textmiddle{ position: absolute; width: 90%; top: 40%; text-align: center;}
+	
 }
 
 .main-slider{ height: auto; position: relative; z-index: 1; 
